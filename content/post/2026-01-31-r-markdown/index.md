@@ -176,15 +176,149 @@ luego mostrarán el resultado en el documento, por ejemplo con el comando `tree`
 
 
 ``` zsh
-tree ~/Code/notes/R_Markdown
+tree ~/Code/lucasmartino95.github.io
 ```
 
 ```
-## /home/lucas/Code/notes/R_Markdown
-## ├── guide.html
-## └── guide.rmd
+## /home/lucas/Code/lucasmartino95.github.io
+## ├── config.yaml
+## ├── content
+## │   ├── about.md
+## │   └── post
+## │       └── 2026-01-31-r-markdown
+## │           ├── index.knit.md~
+## │           ├── index.md
+## │           ├── index.rmd
+## │           └── index.rmd.lock~
+## ├── index.Rmd
+## ├── layouts
+## │   └── shortcodes
+## │       └── blogdown
+## │           └── postref.html
+## ├── netlify.toml
+## ├── public
+## │   ├── 2026
+## │   │   └── 01
+## │   │       └── 31
+## │   │           └── r-markdown
+## │   │               ├── index.html
+## │   │               └── index.rmd
+## │   ├── about
+## │   │   └── index.html
+## │   ├── categories
+## │   │   ├── index.html
+## │   │   └── index.xml
+## │   ├── css
+## │   │   ├── fonts.css
+## │   │   └── main.css
+## │   ├── favicon.ico
+## │   ├── fonts
+## │   │   ├── lato-v24-latin-700italic.woff2
+## │   │   ├── lato-v24-latin-700.woff2
+## │   │   ├── lato-v24-latin-regular.woff2
+## │   │   ├── merriweather-v30-latin-700.woff2
+## │   │   ├── merriweather-v30-latin-italic.woff2
+## │   │   └── merriweather-v30-latin-regular.woff2
+## │   ├── images
+## │   │   ├── hugo-logo.png
+## │   │   └── logo.png
+## │   ├── index.html
+## │   ├── index.xml
+## │   ├── js
+## │   │   └── math-code.js
+## │   ├── post
+## │   │   ├── index.html
+## │   │   └── index.xml
+## │   ├── sitemap.xml
+## │   └── tags
+## │       ├── 2026
+## │       │   └── 01
+## │       │       └── 31
+## │       │           └── r-markdown
+## │       │               ├── index.html
+## │       │               └── index.rmd
+## │       ├── about
+## │       │   └── index.html
+## │       ├── categories
+## │       │   ├── index.html
+## │       │   └── index.xml
+## │       ├── css
+## │       │   ├── fonts.css
+## │       │   └── main.css
+## │       ├── favicon.ico
+## │       ├── fonts
+## │       │   ├── lato-v24-latin-700italic.woff2
+## │       │   ├── lato-v24-latin-700.woff2
+## │       │   ├── lato-v24-latin-regular.woff2
+## │       │   ├── merriweather-v30-latin-700.woff2
+## │       │   ├── merriweather-v30-latin-italic.woff2
+## │       │   └── merriweather-v30-latin-regular.woff2
+## │       ├── images
+## │       │   ├── hugo-logo.png
+## │       │   └── logo.png
+## │       ├── index.html
+## │       ├── index.xml
+## │       ├── js
+## │       │   └── math-code.js
+## │       ├── post
+## │       │   ├── index.html
+## │       │   └── index.xml
+## │       └── sitemap.xml
+## ├── R
+## │   ├── build2.R
+## │   └── build.R
+## ├── README.md
+## ├── static
+## └── themes
+##     └── hugo-lithium
+##         ├── archetypes
+##         │   └── default.md
+##         ├── exampleSite
+##         │   ├── config.toml
+##         │   ├── content
+##         │   │   ├── about.md
+##         │   │   └── post
+##         │   │       ├── 2015-01-01-lorem-ipsum
+##         │   │       │   └── index.md
+##         │   │       └── 2016-12-30-hello-markdown
+##         │   │           └── index.md
+##         │   └── static
+##         ├── layouts
+##         │   ├── _default
+##         │   │   ├── list.html
+##         │   │   └── single.html
+##         │   └── partials
+##         │       ├── disqus.html
+##         │       ├── footer_highlightjs.html
+##         │       ├── footer.html
+##         │       ├── footer_mathjax.html
+##         │       ├── head_custom.html
+##         │       ├── header.html
+##         │       ├── head_highlightjs.html
+##         │       ├── head.html
+##         │       └── nav.html
+##         ├── LICENSE.md
+##         ├── README.md
+##         ├── static
+##         │   ├── css
+##         │   │   ├── fonts.css
+##         │   │   └── main.css
+##         │   ├── favicon.ico
+##         │   ├── fonts
+##         │   │   ├── lato-v24-latin-700italic.woff2
+##         │   │   ├── lato-v24-latin-700.woff2
+##         │   │   ├── lato-v24-latin-regular.woff2
+##         │   │   ├── merriweather-v30-latin-700.woff2
+##         │   │   ├── merriweather-v30-latin-italic.woff2
+##         │   │   └── merriweather-v30-latin-regular.woff2
+##         │   ├── images
+##         │   │   ├── hugo-logo.png
+##         │   │   └── logo.png
+##         │   └── js
+##         │       └── math-code.js
+##         └── theme.toml
 ## 
-## 1 directory, 2 files
+## 50 directories, 87 files
 ```
 
 ### Parámetros
@@ -245,9 +379,9 @@ Listo! Ahora solo queda **desplegar** el blog.
 ### Desplegando el blog
 
 1. Creamos el directorio donde queremos guardar nuestro blog, en nuestra
-   computadora, por ejemplo: `mkdir ~/Code/lucas_blog`
+   computadora, por ejemplo: `mkdir ~/Code/lucasmartino95.github.io`
 
-2. Ingresamos al directorio: `cd ~/code/lucas_blog`
+2. Ingresamos al directorio: `cd ~/code/lucasmartino95.github.io`
 
 3. Ejecutamos el comando para inicializar el proyecto. Esto nos creará toda la
    estructura del blog, es decir, los directorios y archivos necesarios para
@@ -257,18 +391,19 @@ Listo! Ahora solo queda **desplegar** el blog.
 
    
    ``` zsh
-   cd ~/Code/lucas_blog
+   cd ~/Code/lucasmartino95.github.io
    tree content/post
    ```
    
    ```
    ## content/post
    ## └── 2026-01-31-r-markdown
+   ##     ├── index.knit.md~
    ##     ├── index.md
    ##     ├── index.rmd
    ##     └── index.rmd.lock~
    ## 
-   ## 2 directories, 3 files
+   ## 2 directories, 4 files
    ```
 
    Hay artículos que utilizan la extensión `.Rmd`. Estos artículos no se mostrarán en
@@ -321,19 +456,4 @@ Si queremos cambiar los links de la barra de navegación, tan solo debemos confi
 archivo `config.yml`. Si queremos cambiar la página "About", tan solo debemos
 hacer los cambios en el archivo `content/about.md`
 
-### Publicar en Netlify
-
-Como último paso, nos queda publicar el blog en internet. Podemos
-publicarlo gratuitamente en [Netlify](https://www.netlify.com/). Además, podemos
-establecer un [dominio](https://es.wikipedia.org/wiki/Dominio_de_internet)
-propio. A continuación una [guía para publicar en
-Netlify](https://bookdown.org/yihui/blogdown/netlify.html) aunque es un proceso
-muy intuitivo. Básicamente hay que registrarse en Netlify, enlazar nuestro
-repositorio de GitHub siguiendo los pasos que ofrece la plataforma, y por último
-desplegar el blog.
-
-Una vez configurado, para publicar nuestro artículo, en nuestra computadora debemos ejecutar `Rscript
--e "blogdown::build_site(build_rmd = 'timestamp')"` y subir los cambios a
-GitHub. Luego, si tenemos configurada la opción en Netlify para desplegar
-automáticamente, no tenemos que hacer nada más. Tan solo actualizar la página
-una vez que Netlify haya desplegado el último commit.
+### Publicar en GitHub Pages

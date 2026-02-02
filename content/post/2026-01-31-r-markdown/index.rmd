@@ -165,7 +165,7 @@ Podemos utilizar **scripts de bash o zsh** que se ejecutarán en nuestra computa
 luego mostrarán el resultado en el documento, por ejemplo con el comando `tree`
 
 ```{zsh}
-tree ~/Code/notes/R_Markdown
+tree ~/Code/lucasmartino95.github.io
 ```
 
 ### Parámetros
@@ -219,9 +219,9 @@ Listo! Ahora solo queda **desplegar** el blog.
 ### Desplegando el blog
 
 1. Creamos el directorio donde queremos guardar nuestro blog, en nuestra
-   computadora, por ejemplo: `mkdir ~/Code/lucas_blog`
+   computadora, por ejemplo: `mkdir ~/Code/lucasmartino95.github.io`
 
-2. Ingresamos al directorio: `cd ~/code/lucas_blog`
+2. Ingresamos al directorio: `cd ~/code/lucasmartino95.github.io`
 
 3. Ejecutamos el comando para inicializar el proyecto. Esto nos creará toda la
    estructura del blog, es decir, los directorios y archivos necesarios para
@@ -230,7 +230,7 @@ Listo! Ahora solo queda **desplegar** el blog.
 4. Observemos el directorio donde se guardan los artículos:
 
    ```{zsh}
-   cd ~/Code/lucas_blog
+   cd ~/Code/lucasmartino95.github.io
    tree content/post
    ```
 
