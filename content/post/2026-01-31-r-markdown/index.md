@@ -186,7 +186,6 @@ tree ~/Code/lucasmartino95.github.io
 ## │   ├── about.md
 ## │   └── post
 ## │       └── 2026-01-31-r-markdown
-## │           ├── index.knit.md~
 ## │           ├── index.md
 ## │           ├── index.rmd
 ## │           └── index.rmd.lock~
@@ -318,7 +317,7 @@ tree ~/Code/lucasmartino95.github.io
 ##         │       └── math-code.js
 ##         └── theme.toml
 ## 
-## 50 directories, 87 files
+## 50 directories, 86 files
 ```
 
 ### Parámetros
@@ -398,12 +397,11 @@ Listo! Ahora solo queda **desplegar** el blog.
    ```
    ## content/post
    ## └── 2026-01-31-r-markdown
-   ##     ├── index.knit.md~
    ##     ├── index.md
    ##     ├── index.rmd
    ##     └── index.rmd.lock~
    ## 
-   ## 2 directories, 4 files
+   ## 2 directories, 3 files
    ```
 
    Hay artículos que utilizan la extensión `.Rmd`. Estos artículos no se mostrarán en
@@ -457,3 +455,5 @@ archivo `config.yml`. Si queremos cambiar la página "About", tan solo debemos
 hacer los cambios en el archivo `content/about.md`
 
 ### Publicar en GitHub Pages
+
+Test
