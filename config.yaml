@@ -1,5 +1,4 @@
 baseurl: /
-publishDir: public
 languageCode: en-US
 title: Lucas' blog 
 theme: hugo-lithium

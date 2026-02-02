@@ -176,148 +176,17 @@ luego mostrarán el resultado en el documento, por ejemplo con el comando `tree`
 
 
 ``` zsh
-tree ~/Code/lucasmartino95.github.io
+tree ~/Code/lucasmartino95.github.io/content/post
 ```
 
 ```
-## /home/lucas/Code/lucasmartino95.github.io
-## ├── config.yaml
-## ├── content
-## │   ├── about.md
-## │   └── post
-## │       └── 2026-01-31-r-markdown
-## │           ├── index.md
-## │           ├── index.rmd
-## │           └── index.rmd.lock~
-## ├── index.Rmd
-## ├── layouts
-## │   └── shortcodes
-## │       └── blogdown
-## │           └── postref.html
-## ├── netlify.toml
-## ├── public
-## │   ├── 2026
-## │   │   └── 01
-## │   │       └── 31
-## │   │           └── r-markdown
-## │   │               ├── index.html
-## │   │               └── index.rmd
-## │   ├── about
-## │   │   └── index.html
-## │   ├── categories
-## │   │   ├── index.html
-## │   │   └── index.xml
-## │   ├── css
-## │   │   ├── fonts.css
-## │   │   └── main.css
-## │   ├── favicon.ico
-## │   ├── fonts
-## │   │   ├── lato-v24-latin-700italic.woff2
-## │   │   ├── lato-v24-latin-700.woff2
-## │   │   ├── lato-v24-latin-regular.woff2
-## │   │   ├── merriweather-v30-latin-700.woff2
-## │   │   ├── merriweather-v30-latin-italic.woff2
-## │   │   └── merriweather-v30-latin-regular.woff2
-## │   ├── images
-## │   │   ├── hugo-logo.png
-## │   │   └── logo.png
-## │   ├── index.html
-## │   ├── index.xml
-## │   ├── js
-## │   │   └── math-code.js
-## │   ├── post
-## │   │   ├── index.html
-## │   │   └── index.xml
-## │   ├── sitemap.xml
-## │   └── tags
-## │       ├── 2026
-## │       │   └── 01
-## │       │       └── 31
-## │       │           └── r-markdown
-## │       │               ├── index.html
-## │       │               └── index.rmd
-## │       ├── about
-## │       │   └── index.html
-## │       ├── categories
-## │       │   ├── index.html
-## │       │   └── index.xml
-## │       ├── css
-## │       │   ├── fonts.css
-## │       │   └── main.css
-## │       ├── favicon.ico
-## │       ├── fonts
-## │       │   ├── lato-v24-latin-700italic.woff2
-## │       │   ├── lato-v24-latin-700.woff2
-## │       │   ├── lato-v24-latin-regular.woff2
-## │       │   ├── merriweather-v30-latin-700.woff2
-## │       │   ├── merriweather-v30-latin-italic.woff2
-## │       │   └── merriweather-v30-latin-regular.woff2
-## │       ├── images
-## │       │   ├── hugo-logo.png
-## │       │   └── logo.png
-## │       ├── index.html
-## │       ├── index.xml
-## │       ├── js
-## │       │   └── math-code.js
-## │       ├── post
-## │       │   ├── index.html
-## │       │   └── index.xml
-## │       └── sitemap.xml
-## ├── R
-## │   ├── build2.R
-## │   └── build.R
-## ├── README.md
-## ├── static
-## └── themes
-##     └── hugo-lithium
-##         ├── archetypes
-##         │   └── default.md
-##         ├── exampleSite
-##         │   ├── config.toml
-##         │   ├── content
-##         │   │   ├── about.md
-##         │   │   └── post
-##         │   │       ├── 2015-01-01-lorem-ipsum
-##         │   │       │   └── index.md
-##         │   │       └── 2016-12-30-hello-markdown
-##         │   │           └── index.md
-##         │   └── static
-##         ├── layouts
-##         │   ├── _default
-##         │   │   ├── list.html
-##         │   │   └── single.html
-##         │   └── partials
-##         │       ├── disqus.html
-##         │       ├── footer_highlightjs.html
-##         │       ├── footer.html
-##         │       ├── footer_mathjax.html
-##         │       ├── head_custom.html
-##         │       ├── header.html
-##         │       ├── head_highlightjs.html
-##         │       ├── head.html
-##         │       └── nav.html
-##         ├── LICENSE.md
-##         ├── README.md
-##         ├── static
-##         │   ├── css
-##         │   │   ├── fonts.css
-##         │   │   └── main.css
-##         │   ├── favicon.ico
-##         │   ├── fonts
-##         │   │   ├── lato-v24-latin-700italic.woff2
-##         │   │   ├── lato-v24-latin-700.woff2
-##         │   │   ├── lato-v24-latin-regular.woff2
-##         │   │   ├── merriweather-v30-latin-700.woff2
-##         │   │   ├── merriweather-v30-latin-italic.woff2
-##         │   │   └── merriweather-v30-latin-regular.woff2
-##         │   ├── images
-##         │   │   ├── hugo-logo.png
-##         │   │   └── logo.png
-##         │   └── js
-##         │       └── math-code.js
-##         └── theme.toml
+## /home/lucas/Code/lucasmartino95.github.io/content/post
+## └── 2026-01-31-r-markdown
+##     ├── index.md
+##     ├── index.rmd
+##     └── index.rmd.lock~
 ## 
-## 50 directories, 86 files
+## 2 directories, 3 files
 ```
 
 ### Parámetros
@@ -456,4 +325,29 @@ hacer los cambios en el archivo `content/about.md`
 
 ### Publicar en GitHub Pages
 
-Test
+Para empezar, seguir la [guía para crear un
+repositorio](https://docs.github.com/en/pages/quickstart) para nuestro blog.
+
+Luego, en GitHub, desde el repositorio que creamos, ir a: **Settings -> Actions
+-> General -> Scroll down to "Workflow permissions" -> Check "Read and write
+permissions**
+
+#### Agregar archivo hugo.yaml
+
+Para terminar, seguir los pasos de esta
+[guía](https://gohugo.io/host-and-deploy/host-on-github-pages/) desde el sitio
+oficial de Hugo. **Omitir paso 2**
+
+
+#### Ignorar directorio public/
+
+Para finalizar, crear un archivo `.gitignore` e incluir el directorio
+`public/` ya que GitHub creara esta carpeta por nosotros al subir cambios al
+repositorio.
+
+#### Subir cambios al blog
+
+Si editamos un archivo `.rmd`, aún debemos ejecutar
+`Rscript -e "blogdown::build_site('build_rmd = 'timestamp')"` y luego subir los
+cambios al repositorio. Luego GitHub se encargará de actualizar la carpeta
+`public/` del repositorio.

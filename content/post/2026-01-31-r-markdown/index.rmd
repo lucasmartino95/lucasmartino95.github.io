@@ -165,7 +165,7 @@ Podemos utilizar **scripts de bash o zsh** que se ejecutarán en nuestra computa
 luego mostrarán el resultado en el documento, por ejemplo con el comando `tree`
 
 ```{zsh}
-tree ~/Code/lucasmartino95.github.io
+tree ~/Code/lucasmartino95.github.io/content/post
 ```
 
 ### Parámetros
@@ -285,4 +285,29 @@ hacer los cambios en el archivo `content/about.md`
 
 ### Publicar en GitHub Pages
 
-Test
+Para empezar, seguir la [guía para crear un
+repositorio](https://docs.github.com/en/pages/quickstart) para nuestro blog.
+
+Luego, en GitHub, desde el repositorio que creamos, ir a: **Settings -> Actions
+-> General -> Scroll down to "Workflow permissions" -> Check "Read and write
+permissions**
+
+#### Agregar archivo hugo.yaml
+
+Para terminar, seguir los pasos de esta
+[guía](https://gohugo.io/host-and-deploy/host-on-github-pages/) desde el sitio
+oficial de Hugo. **Omitir paso 2**
+
+
+#### Ignorar directorio public/
+
+Para finalizar, crear un archivo `.gitignore` e incluir el directorio
+`public/` ya que GitHub creara esta carpeta por nosotros al subir cambios al
+repositorio.
+
+#### Subir cambios al blog
+
+Si editamos un archivo `.rmd`, aún debemos ejecutar
+`Rscript -e "blogdown::build_site('build_rmd = 'timestamp')"` y luego subir los
+cambios al repositorio. Luego GitHub se encargará de actualizar la carpeta
+`public/` del repositorio.
