@@ -73,3 +73,5 @@ cat ~/Code/dotfiles/.stow-local-ignore
 Una vez que ya generamos los enlaces simbólicos y opcionalmente configuramos
 nuestro archivo `.stow-local-ignore`, ya podemos iniciar un repositorio Git y
 subirlo a GitHub. 
+
+test
