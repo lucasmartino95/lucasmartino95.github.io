@@ -7,13 +7,16 @@ categories: []
 tags: []
 ---
 
+## Pre requisito para seguir la guía
+
+[Enlace simbólico](https://es.wikipedia.org/wiki/Enlace_simbólico)
+
 ## ¿Qué son los dotfiles?
 
 Se le llama **dotfiles** a los archivos de configuración de un sistema operativo
-tipo Unix. Tal como el nombre lo indica, suelen ser archivos que tienen un `.`al
+tipo [Unix](https://es.wikipedia.org/wiki/Unix). Tal como su nombre lo indica, suelen ser archivos que tienen un `.` al
 principio de su nombre. Esto causa que sean archivos ocultos. Pero también
 incluye archivos que no sean ocultos, es decir sin un `.` al principio.
-
 
 ## La manera más simple de manejar los dotfiles
 
@@ -38,9 +41,11 @@ mkdir -p ~/Code/dotfiles
 mv ~/.bashrc Code/dotfiles
 mv ~/.bash_profile Code/dotfiles
 mv ~/.gitconfig Code/dotfiles
+
+mv ~/.config/alacritty # Movemos un directorio
 ````
 
-Listo, una vez que movimos los archivos a nuestra carpeta `dotfiles`,
+Listo, una vez que movimos los archivos y/o directorios a nuestra carpeta `dotfiles`,
 básicamente vamos a generar enlaces simbólicos a donde corresponda para cada
 archivo o directorio:
 
@@ -48,14 +53,14 @@ archivo o directorio:
 
 Lo que hace este comando es: 
 
-- `-d`: Establece el directorio donde se ejecutará `stow`, en este caso es:
+- `-d` Establece el directorio donde se ejecutará `stow`, en este caso es:
   `~/Code/dotfiles`
 
-- `-t`: Establece el directorio donde generará los enlaces simbólicos, en este
+- `-t` Establece el directorio donde generará los enlaces simbólicos, en este
   caso es: `~/`
 
-- `.`: Por último, el `.` indica que se quiere enlazar a todos los archivos
-  dentro del directorio donde se ejecutará `stow`
+- `.` Por último, el `.` indica que se quiere enlazar todos los archivos y/o
+  directorios donde se ejecutará `stow`
 
 ## Hacer que GNU Stow ignore ciertos archivos
 
@@ -71,7 +76,12 @@ cat ~/Code/dotfiles/.stow-local-ignore
 ## Git y GitHub
 
 Una vez que ya generamos los enlaces simbólicos y opcionalmente configuramos
-nuestro archivo `.stow-local-ignore`, ya podemos iniciar un repositorio Git y
-subirlo a GitHub. 
+nuestro archivo `.stow-local-ignore`, ya podemos iniciar un repositorio Git en
+nuestra carpeta `~/Code/dotfiles` y subirla a GitHub. 
 
-test
+## Deshacer enlaces simbólicos
+
+Si por algún motivo, necesitas deshacer los enlaces simbólicos que generó **GNU
+Stow**, la forma más sencilla de hacerlo es con el comando: `stow -D .` dentro
+del directorio raíz de los `dotfiles`. Por ejemplo, si quisieras cambiar la
+ubicación de tu carpeta `dotfiles` luego de haber generado los enlaces simbólicos.
