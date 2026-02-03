@@ -93,4 +93,4 @@ a donde quisieras. Finalmente ejecutarías el [comando](#cómo-usar-gnu-stow
 directorio.
 
 **Por las dudas, antes de hacer esto hacer backup de la carpeta dotfiles, por 
-ejemplo**: `mv ~/Code/dotfiles ~/Code/dotfiles.bak`
+ejemplo**: `cp -r ~/Code/dotfiles ~/Code/dotfiles.bak`
