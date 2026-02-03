@@ -1,5 +1,5 @@
 baseurl: /
-languageCode: es-AR
+languageCode: en-US
 title: Lucas' blog 
 theme: hugo-lithium
 ignoreFiles:

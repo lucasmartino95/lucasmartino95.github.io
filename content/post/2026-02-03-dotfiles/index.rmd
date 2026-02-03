@@ -29,7 +29,7 @@ cualquier otra computadora. El proceso es muy sencillo con **GNU Stow**.
 
 Simplemente ejecutar `sudo pacman -S stow`
 
-## Cómo usar GNU Stow
+## ¿Cómo usar GNU Stow?
 
 Para empezar, vamos a mover los archivos que están en nuestro `$HOME` a una
 carpeta llamada `dotfiles`, entonces, por ejemplo:
@@ -76,9 +76,9 @@ cat ~/Code/dotfiles/.stow-local-ignore
 
 ## Git y GitHub
 
-Una vez que ya generamos los enlaces simbólicos y opcionalmente configuramos
-nuestro archivo `.stow-local-ignore`, ya podemos iniciar un repositorio Git en
-nuestra carpeta `~/Code/dotfiles` y subirla a GitHub. 
+Una vez que ya generamos los enlaces simbólicos y opcionalmente hayamos
+configurado nuestro archivo `.stow-local-ignore`, ya podemos iniciar un 
+repositorio Git en nuestra carpeta `~/Code/dotfiles` y subirla a GitHub. 
 
 ## Deshacer enlaces simbólicos
 
