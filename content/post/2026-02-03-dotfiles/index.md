@@ -2,12 +2,13 @@
 title: Dotfiles
 author: Lucas Martino 
 date: '2026-02-03'
+toc: true
 slug: dotfiles
 categories: []
 tags: []
 ---
 
-## Pre requisito para seguir la guía
+## Prerrequisito para seguir la guía
 
 [Enlace simbólico](https://es.wikipedia.org/wiki/Enlace_simbólico)
 
