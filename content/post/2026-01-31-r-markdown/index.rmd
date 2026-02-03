@@ -272,7 +272,7 @@ toc: true
 ---
 ````
 
-`toc-depth: 4` establece el nivel de profundidad de encabezados, en este ejemplo
+`toc-depth: 4` Establece el nivel de profundidad de encabezados, en este ejemplo
 es hasta cuatro. Además, tener en cuenta que los encabezados nivel uno, no los tiene
 en cuenta `blogdown`. **Por el momento no logró hacer funcionar esta llave. El
 nivel de profundidad va hasta tres**.
