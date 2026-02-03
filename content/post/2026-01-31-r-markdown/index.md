@@ -1,9 +1,10 @@
 ---
 title: R Markdown
-author: ~
+author: Lucas Martino
 date: '2026-01-31'
-toc: true
-toc_depth: 4
+output:
+  blogdown::html_page:
+    toc: true
 slug: r-markdown
 categories: []
 tags: []
@@ -182,11 +183,10 @@ tree ~/Code/lucasmartino95.github.io/content/post
 ```
 ## /home/lucas/Code/lucasmartino95.github.io/content/post
 ## └── 2026-01-31-r-markdown
-##     ├── index.md
 ##     ├── index.rmd
 ##     └── index.rmd.lock~
 ## 
-## 2 directories, 3 files
+## 2 directories, 2 files
 ```
 
 ### Parámetros
@@ -266,11 +266,10 @@ Listo! Ahora solo queda **desplegar** el blog.
    ```
    ## content/post
    ## └── 2026-01-31-r-markdown
-   ##     ├── index.md
    ##     ├── index.rmd
    ##     └── index.rmd.lock~
    ## 
-   ## 2 directories, 3 files
+   ## 2 directories, 2 files
    ```
 
    Hay artículos que utilizan la extensión `.Rmd`. Estos artículos no se mostrarán en
@@ -309,7 +308,7 @@ en el encabezado:
 ``` yaml
 ---
 toc: true
-toc-depth: 4
+toc_depth: 4
 ---
 ```
 

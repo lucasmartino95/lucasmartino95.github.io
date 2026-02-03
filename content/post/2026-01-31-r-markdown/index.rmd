@@ -1,9 +1,8 @@
 ---
 title: R Markdown
-author: ~
+author: Lucas Martino
 date: '2026-01-31'
 toc: true
-toc_depth: 4
 slug: r-markdown
 categories: []
 tags: []
@@ -234,19 +233,19 @@ Listo! Ahora solo queda **desplegar** el blog.
    tree content/post
    ```
 
-   Hay artículos que utilizan la extensión `.Rmd`. Estos artículos no se mostrarán en
+   Hay artículos que utilizan la extensión `.rmd`. Estos artículos no se mostrarán en
    el sitio web, porque `blogdown` no los convierte automáticamente para la
    vista previa.  
    
    Antes de ejecutar el comando para lanzar el blog, debemos ejecutar el comando
-   para convertir los artículos `.Rmd` en `.html`: `Rscript -e
+   para convertir los artículos `.rmd` en `.html`: `Rscript -e
    "blogdown::build_site(build_rmd = 'timestamp')"`. Si omitimos este paso, `blogdown` ignorará el archivo
-   `.Rmd`
+   `.rmd`
 
 5. Ahora sí, para lanzar el blog y verlo en nuestra computadora, con un servidor
    local, utilizamos: `Rscript -e "blogdown::serve_site()"`
 
-6. Cada vez que hacemos cambios en algún archivo `.Rmd`, debemos ejecutar el
+6. Cada vez que hacemos cambios en algún archivo `.rmd`, debemos ejecutar el
    comando del paso 4. No hay necesidad de apagar el servidor y volverlo a
    iniciar.
 
@@ -269,13 +268,14 @@ en el encabezado:
 ````{verbatim, lang = "yaml"}
 ---
 toc: true
-toc-depth: 4
+# toc_depth: 4
 ---
 ````
 
 `toc-depth: 4` establece el nivel de profundidad de encabezados, en este ejemplo
 es hasta 4. Además, tener en cuenta que los encabezados nivel uno, no los tiene
-en cuenta `blogdown`.
+en cuenta `blogdown`. **Por el momento no logró hacer funcionar esta llave. El
+nivel de profundidad va hasta 3**
 
 ### Completar el blog  
 
