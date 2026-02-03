@@ -3,7 +3,7 @@ title: R Markdown
 author: ~
 date: '2026-01-31'
 toc: true
-toc-depth: 4
+toc_depth: 4
 slug: r-markdown
 categories: []
 tags: []
@@ -290,7 +290,7 @@ repositorio](https://docs.github.com/en/pages/quickstart) para nuestro blog.
 
 Luego, en GitHub, desde el repositorio que creamos, ir a: **Settings -> Actions
 -> General -> Scroll down to "Workflow permissions" -> Check "Read and write
-permissions**
+permissions"**
 
 #### Agregar archivo hugo.yaml
 
@@ -302,12 +302,12 @@ oficial de Hugo. **Omitir paso 2**
 #### Ignorar directorio public/
 
 Para finalizar, crear un archivo `.gitignore` e incluir el directorio
-`public/` ya que GitHub creara esta carpeta por nosotros al subir cambios al
+`public/` ya que GitHub Actions creará esta carpeta por nosotros al subir cambios al
 repositorio.
 
 #### Subir cambios al blog
 
 Si editamos un archivo `.rmd`, aún debemos ejecutar
 `Rscript -e "blogdown::build_site('build_rmd = 'timestamp')"` y luego subir los
-cambios al repositorio. Luego GitHub se encargará de actualizar la carpeta
+cambios al repositorio. Luego GitHub Actions se encargará de actualizar la carpeta
 `public/` del repositorio.
