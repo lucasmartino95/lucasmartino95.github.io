@@ -285,7 +285,7 @@ Listo! Ahora solo queda **desplegar** el blog.
    local, utilizamos: `Rscript -e "blogdown::serve_site()"`
 
 6. Cada vez que hacemos cambios en algún archivo `.rmd`, debemos ejecutar el
-   comando del paso 4. No hay necesidad de apagar el servidor y volverlo a
+   comando del paso cuatro. No hay necesidad de apagar el servidor y volverlo a
    iniciar.
 
 7. Para crear un artículo, utilizamos el comando: `Rscript -e "blogdown::new_post('My_new_post', ext = '.rmd')"`. Lo editamos en nuestro
@@ -315,7 +315,7 @@ toc: true
 `toc-depth: 4` establece el nivel de profundidad de encabezados, en este ejemplo
 es hasta 4. Además, tener en cuenta que los encabezados nivel uno, no los tiene
 en cuenta `blogdown`. **Por el momento no logró hacer funcionar esta llave. El
-nivel de profundidad va hasta 3**
+nivel de profundidad va hasta tres**.
 
 ### Completar el blog  
 
@@ -336,7 +336,7 @@ permissions"**
 
 Para terminar, seguir los pasos de esta
 [guía](https://gohugo.io/host-and-deploy/host-on-github-pages/) desde el sitio
-oficial de Hugo. **Omitir paso 2**
+oficial de Hugo. **Omitir paso dos**.
 
 
 #### Ignorar directorio public/
