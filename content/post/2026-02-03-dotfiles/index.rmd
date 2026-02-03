@@ -1,0 +1,75 @@
+---
+title: Dotfiles
+author: Lucas Martino 
+date: '2026-02-03'
+slug: dotfiles
+categories: []
+tags: []
+---
+
+## ¿Qué son los dotfiles?
+
+Se le llama **dotfiles** a los archivos de configuración de un sistema operativo
+tipo Unix. Tal como el nombre lo indica, suelen ser archivos que tienen un `.`al
+principio de su nombre. Esto causa que sean archivos ocultos. Pero también
+incluye archivos que no sean ocultos, es decir sin un `.` al principio.
+
+
+## La manera más simple de manejar los dotfiles
+
+**GNU Stow** es la herramienta que utilizo para manejar los dotfiles de mi
+computadora. Eso combinado con **Git** y **GitHub** para tener acceso a los archivos desde
+cualquier otra computadora. El proceso es muy sencillo con **GNU Stow**.
+
+## Instalación (Arch Linux)
+
+Simplemente ejecutar `sudo pacman -S stow`
+
+## Cómo usar GNU Stow
+
+Para empezar, vamos a mover los archivos que están en nuestro `$HOME` a una
+carpeta llamada `dotfiles`, entonces, por ejemplo:
+
+````{verbatim, lang = "zsh"}
+cd ~
+
+mkdir -p ~/Code/dotfiles
+
+mv ~/.bashrc Code/dotfiles
+mv ~/.bash_profile Code/dotfiles
+mv ~/.gitconfig Code/dotfiles
+````
+
+Listo, una vez que movimos los archivos a nuestra carpeta `dotfiles`,
+básicamente vamos a generar enlaces simbólicos a donde corresponda para cada
+archivo o directorio:
+
+`stow -d ~/Code/dotfiles -t ~/ .`
+
+Lo que hace este comando es: 
+
+- `-d`: Establece el directorio donde se ejecutará `stow`, en este caso es:
+  `~/Code/dotfiles`
+
+- `-t`: Establece el directorio donde generará los enlaces simbólicos, en este
+  caso es: `~/`
+
+- `.`: Por último, el `.` indica que se quiere enlazar a todos los archivos
+  dentro del directorio donde se ejecutará `stow`
+
+## Hacer que GNU Stow ignore ciertos archivos
+
+Podría ser que dentro de tu directorio `dotfiles` tengas archivos que quisieras
+ignorar, es decir, que **GNU Stow** no genere los enlaces simbólicos, por ejemplo un
+archivo `README.md`. Para eso podemos crear un archivo `.stow-local-ignore` y
+dentro colocamos el archivo o directorio que queremos ignorar. Por ejemplo:
+
+```{zsh}
+cat ~/Code/dotfiles/.stow-local-ignore
+```
+
+## Git y GitHub
+
+Una vez que ya generamos los enlaces simbólicos y opcionalmente configuramos
+nuestro archivo `.stow-local-ignore`, ya podemos iniciar un repositorio Git y
+subirlo a GitHub. 
