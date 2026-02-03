@@ -18,8 +18,8 @@ incluye archivos que no sean ocultos, es decir sin un `.` al principio.
 ## La manera más simple de manejar los dotfiles
 
 **GNU Stow** es la herramienta que utilizo para manejar los dotfiles de mi
-computadora. Eso combinado con **Git** para tener acceso a los archivos desde
-cualquier otra computadora. El proceso es muy sencillo con **GNU Stow**
+computadora. Eso combinado con **Git** y **GitHub** para tener acceso a los archivos desde
+cualquier otra computadora. El proceso es muy sencillo con **GNU Stow**.
 
 ## Instalación (Arch Linux)
 
@@ -53,7 +53,7 @@ Lo que hace este comando es:
   `~/Code/dotfiles`
 
 - `-t`: Establece el directorio donde generará los enlaces simbólicos, en este
-  caso es: `~/`.
+  caso es: `~/`
 
 - `.`: Por último, el `.` indica que se quiere enlazar a todos los archivos
   dentro del directorio donde se ejecutará `stow`
@@ -61,7 +61,7 @@ Lo que hace este comando es:
 ## Hacer que GNU Stow ignore ciertos archivos
 
 Podría ser que dentro de tu directorio `dotfiles` tengas archivos que quisieras
-ignorar, es decir, que GNU Stow no genere los enlaces simbólicos, por ejemplo un
+ignorar, es decir, que **GNU Stow** no genere los enlaces simbólicos, por ejemplo un
 archivo `README.md`. Para eso podemos crear un archivo `.stow-local-ignore` y
 dentro colocamos el archivo o directorio que queremos ignorar. Por ejemplo:
 
@@ -83,3 +83,5 @@ cat ~/Code/dotfiles/.stow-local-ignore
 Una vez que ya generamos los enlaces simbólicos y opcionalmente configuramos
 nuestro archivo `.stow-local-ignore`, ya podemos iniciar un repositorio Git y
 subirlo a GitHub. 
+
+test
