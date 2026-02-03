@@ -96,3 +96,11 @@ Si por algún motivo, necesitas deshacer los enlaces simbólicos que generó **G
 Stow**, la forma más sencilla de hacerlo es con el comando: `stow -D .` dentro
 del directorio raíz de los `dotfiles`. Por ejemplo, si quisieras cambiar la
 ubicación de tu carpeta `dotfiles` luego de haber generado los enlaces simbólicos.
+
+Primero ejecutarías `stow -D .` dentro de `dotfiles` y luego moverías la carpeta
+a donde quisieras. Finalmente ejecutarías el [comando](#cómo-usar-gnu-stow
+) para generar los enlaces simbólicos apuntando a la nueva ruta del
+directorio.
+
+**Por las dudas, antes de hacer esto hacer backup de la carpeta dotfiles, por 
+ejemplo**: `mv ~/Code/dotfiles ~/Code/dotfiles.bak`
