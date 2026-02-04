@@ -186,10 +186,9 @@ tree ~/Code/lucasmartino95.github.io/content/post
 │   └── index.rmd.lock~
 └── 2026-02-03-dotfiles
     ├── index.md
-    ├── index.rmd
-    └── index.rmd.lock~
+    └── index.rmd
 
-3 directories, 6 files
+3 directories, 5 files
 ```
 
 Este bloque de código lleva la opción `comment = ""`. Para evitar que incruste
@@ -277,10 +276,9 @@ Listo! Ahora solo queda **desplegar** el blog.
    │   └── index.rmd.lock~
    └── 2026-02-03-dotfiles
        ├── index.md
-       ├── index.rmd
-       └── index.rmd.lock~
+       └── index.rmd
    
-   3 directories, 6 files
+   3 directories, 5 files
    ```
 
    Hay artículos que utilizan la extensión `.rmd`. Estos artículos no se mostrarán en
@@ -354,7 +352,7 @@ oficial de Hugo. **Omitir paso dos**.
 
 Para finalizar, crear un archivo `.gitignore` e incluir el directorio
 `public/` ya que GitHub Actions creará esta carpeta por nosotros al subir cambios al
-repositorio. Esta carpeta `public` es la carpeta de producción de nuestro blog.
+repositorio. Esta carpeta `public/` es la carpeta de producción de nuestro blog.
 
 #### Subir cambios al blog
 
