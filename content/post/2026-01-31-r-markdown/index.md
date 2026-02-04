@@ -179,16 +179,17 @@ tree ~/Code/lucasmartino95.github.io/content/post
 ```
 
 ```
-## /home/lucas/Code/lucasmartino95.github.io/content/post
-## ├── 2026-01-31-r-markdown
-## │   ├── index.md
-## │   ├── index.rmd
-## │   └── index.rmd.lock~
-## └── 2026-02-03-dotfiles
-##     ├── index.md
-##     └── index.rmd
-## 
-## 3 directories, 5 files
+/home/lucas/Code/lucasmartino95.github.io/content/post
+├── 2026-01-31-r-markdown
+│   ├── index.md
+│   ├── index.rmd
+│   └── index.rmd.lock~
+└── 2026-02-03-dotfiles
+    ├── index.md
+    ├── index.rmd
+    └── index.rmd.lock~
+
+3 directories, 6 files
 ```
 
 ### Parámetros
@@ -266,16 +267,17 @@ Listo! Ahora solo queda **desplegar** el blog.
    ```
    
    ```
-   ## content/post
-   ## ├── 2026-01-31-r-markdown
-   ## │   ├── index.md
-   ## │   ├── index.rmd
-   ## │   └── index.rmd.lock~
-   ## └── 2026-02-03-dotfiles
-   ##     ├── index.md
-   ##     └── index.rmd
-   ## 
-   ## 3 directories, 5 files
+   content/post
+   ├── 2026-01-31-r-markdown
+   │   ├── index.md
+   │   ├── index.rmd
+   │   └── index.rmd.lock~
+   └── 2026-02-03-dotfiles
+       ├── index.md
+       ├── index.rmd
+       └── index.rmd.lock~
+   
+   3 directories, 6 files
    ```
 
    Hay artículos que utilizan la extensión `.rmd`. Estos artículos no se mostrarán en
