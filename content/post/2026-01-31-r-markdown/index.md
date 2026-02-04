@@ -180,12 +180,15 @@ tree ~/Code/lucasmartino95.github.io/content/post
 
 ```
 ## /home/lucas/Code/lucasmartino95.github.io/content/post
-## └── 2026-01-31-r-markdown
+## ├── 2026-01-31-r-markdown
+## │   ├── index.md
+## │   ├── index.rmd
+## │   └── index.rmd.lock~
+## └── 2026-02-03-dotfiles
 ##     ├── index.md
-##     ├── index.rmd
-##     └── index.rmd.lock~
+##     └── index.rmd
 ## 
-## 2 directories, 3 files
+## 3 directories, 5 files
 ```
 
 ### Parámetros
@@ -264,12 +267,15 @@ Listo! Ahora solo queda **desplegar** el blog.
    
    ```
    ## content/post
-   ## └── 2026-01-31-r-markdown
+   ## ├── 2026-01-31-r-markdown
+   ## │   ├── index.md
+   ## │   ├── index.rmd
+   ## │   └── index.rmd.lock~
+   ## └── 2026-02-03-dotfiles
    ##     ├── index.md
-   ##     ├── index.rmd
-   ##     └── index.rmd.lock~
+   ##     └── index.rmd
    ## 
-   ## 2 directories, 3 files
+   ## 3 directories, 5 files
    ```
 
    Hay artículos que utilizan la extensión `.rmd`. Estos artículos no se mostrarán en
@@ -334,7 +340,7 @@ permissions"**
 
 #### Agregar archivo hugo.yaml
 
-Para terminar, seguir los pasos de esta
+Luego, seguir los pasos de esta
 [guía](https://gohugo.io/host-and-deploy/host-on-github-pages/) desde el sitio
 oficial de Hugo. **Omitir paso dos**.
 
@@ -343,7 +349,7 @@ oficial de Hugo. **Omitir paso dos**.
 
 Para finalizar, crear un archivo `.gitignore` e incluir el directorio
 `public/` ya que GitHub Actions creará esta carpeta por nosotros al subir cambios al
-repositorio.
+repositorio. Esta carpeta `public` es la carpeta de producción de nuestro blog.
 
 #### Subir cambios al blog
 

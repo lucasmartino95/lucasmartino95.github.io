@@ -294,7 +294,7 @@ permissions"**
 
 #### Agregar archivo hugo.yaml
 
-Para terminar, seguir los pasos de esta
+Luego, seguir los pasos de esta
 [guía](https://gohugo.io/host-and-deploy/host-on-github-pages/) desde el sitio
 oficial de Hugo. **Omitir paso dos**.
 
@@ -303,7 +303,7 @@ oficial de Hugo. **Omitir paso dos**.
 
 Para finalizar, crear un archivo `.gitignore` e incluir el directorio
 `public/` ya que GitHub Actions creará esta carpeta por nosotros al subir cambios al
-repositorio.
+repositorio. Esta carpeta `public` es la carpeta de producción de nuestro blog.
 
 #### Subir cambios al blog
 
