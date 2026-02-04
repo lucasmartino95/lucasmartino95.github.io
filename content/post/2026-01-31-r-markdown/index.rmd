@@ -235,7 +235,7 @@ Listo! Ahora solo queda **desplegar** el blog.
    tree content/post
    ```
 
-   Hay artículos que utilizan la extensión `.rmd`. Estos artículos no se mostrarán en
+   Los artículos utilizan la extensión `.rmd`. Estos artículos no se mostrarán en
    el sitio web, porque `blogdown` no los convierte automáticamente para la
    vista previa.  
    

@@ -186,10 +186,9 @@ tree ~/Code/lucasmartino95.github.io/content/post
 │   └── index.rmd.lock~
 └── 2026-02-03-dotfiles
     ├── index.md
-    ├── index.rmd
-    └── index.rmd.lock~
+    └── index.rmd
 
-3 directories, 6 files
+3 directories, 5 files
 ```
 
 Este [bloque de código](#bloques-de-código) lleva la **opción** `comment = ""` para evitar que incruste
@@ -276,13 +275,12 @@ Listo! Ahora solo queda **desplegar** el blog.
    │   └── index.rmd.lock~
    └── 2026-02-03-dotfiles
        ├── index.md
-       ├── index.rmd
-       └── index.rmd.lock~
+       └── index.rmd
    
-   3 directories, 6 files
+   3 directories, 5 files
    ```
 
-   Hay artículos que utilizan la extensión `.rmd`. Estos artículos no se mostrarán en
+   Los artículos utilizan la extensión `.rmd`. Estos artículos no se mostrarán en
    el sitio web, porque `blogdown` no los convierte automáticamente para la
    vista previa.  
    
