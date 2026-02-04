@@ -69,7 +69,7 @@ Lo que hace este comando es:
 Podría ser que dentro de tu directorio `dotfiles` tengas archivos que quisieras
 ignorar, es decir, que **GNU Stow** no genere los enlaces simbólicos, por ejemplo un
 archivo `README.md`. Para eso podemos crear un archivo `.stow-local-ignore` y
-dentro colocamos el archivo o directorio que queremos ignorar. Por ejemplo:
+dentro escribimos el nombre del archivo o directorio que queremos ignorar. Por ejemplo:
 
 ```{zsh, comment = ""}
 cat ~/Code/dotfiles/.stow-local-ignore
