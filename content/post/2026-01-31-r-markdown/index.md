@@ -192,6 +192,9 @@ tree ~/Code/lucasmartino95.github.io/content/post
 3 directories, 6 files
 ```
 
+Este bloque de código lleva la opción `comment = ""`. Para evitar que incruste
+comentarios en la salida. `{zsh, comment = ""}`
+
 ### Parámetros
 
 También podemos utilizar parámetros para ejecutar bloques de código

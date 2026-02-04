@@ -38,13 +38,14 @@ carpeta llamada `dotfiles`, entonces, por ejemplo:
 ``` zsh
 cd ~
 
-mkdir -p ~/Code/dotfiles
+mkdir -p Code/dotfiles
 
-mv ~/.bashrc Code/dotfiles
-mv ~/.bash_profile Code/dotfiles
-mv ~/.gitconfig Code/dotfiles
+mv .bashrc Code/dotfiles
+mv .bash_profile Code/dotfiles
+mv .gitconfig Code/dotfiles
 
-mv ~/.config/alacritty # Movemos un directorio
+mkdir -p Code/dotfiles/.config
+mv .config/alacritty Code/dotfiles/.config # Movemos un directorio
 ```
 
 Listo, una vez que movimos los archivos y/o directorios a nuestra carpeta `dotfiles`,
