@@ -19,7 +19,7 @@ params:
 - HTML
 - WORD
 
-Lista de: [documentos](https://rmarkdown.rstudio.com/lesson-9.html)
+Lista de: [documentos](https://rmarkdown.rstudio.com/lesson-9.html).
 
 
 Además, es una **variante del lenguaje Markdown**. Esta variante también nos
@@ -71,7 +71,7 @@ Luego, al ejecutar el comando de conversión, obtendremos un **documento HTML**
 debidamente estilizado. El comando sería: `Rscript -e "rmarkdown::render('nombre_del_archivo.rmd')"`
 
 **NOTA**: Para hacer la conversión, debemos estar en el mismo directorio donde
-se encuentra el archivo, o indincar la ruta absoluta.
+se encuentra el archivo, o indicar la ruta absoluta.
 
 **NOTA 2**: Para que no se ejecute la función dentro de `date`, utilizamos el
 [motor
@@ -142,7 +142,7 @@ Markdown**. Por ejemplo:
 | Fila 2, columna 1 | Fila 2, columna 2 | Fila 2, columna 3 |
 
 Lista de: [elementos
-Markdown](https://rmarkdown.rstudio.com/authoring_basics.html)
+Markdown](https://rmarkdown.rstudio.com/authoring_basics.html).
 
 ## Bloques de código
 
@@ -165,7 +165,7 @@ print("Hello world")
 ## Hello world
 ```
 
-Lista de: [motores](https://rmarkdown.rstudio.com/lesson-5.html)
+Lista de: [motores](https://rmarkdown.rstudio.com/lesson-5.html).
 
 
 ### Explorando un poco los bloques de código
@@ -191,7 +191,7 @@ tree ~/Code/lucasmartino95.github.io/content/post
 3 directories, 5 files
 ```
 
-Este [bloque de código](#bloques-de-código) lleva la **opción** `comment = ""`. Para evitar que incruste
+Este [bloque de código](#bloques-de-código) lleva la **opción** `comment = ""` para evitar que incruste
 comentarios en la salida. Sería: `{zsh, comment = ""}`
 
 ### Parámetros
@@ -219,10 +219,9 @@ De este modo, logramos:
   ```
       
 - Gestionar mejor las variables desde el encabezado YAML, en lugar
-  de buscar por todo el documento
+  de buscar por todo el documento.
 
-- Permite a los usuarios sin conocimientos de programación cambiar valores
-
+- Permite a los usuarios sin conocimientos de programación cambiar valores.
 
 
 ``` python
@@ -328,8 +327,7 @@ nivel de profundidad va hasta tres**.
 
 ### Completar el blog  
 
-Si queremos cambiar los links de la barra de navegación, tan solo debemos configurar el
-archivo `config.yml`. Si queremos cambiar la página "About", tan solo debemos
+Si queremos **cambiar los links** de la barra de navegación, tan solo debemos configurar el archivo `config.yml`. Si queremos **cambiar la página "About"**, tan solo debemos
 hacer los cambios en el archivo `content/about.md`
 
 ### Publicar en GitHub Pages
@@ -339,13 +337,11 @@ repositorio](https://docs.github.com/en/pages/quickstart) para nuestro blog.
 
 Luego, en GitHub, desde el repositorio que creamos, ir a: **Settings -> Actions
 -> General -> Scroll down to "Workflow permissions" -> Check "Read and write
-permissions"**
+permissions"**.
 
 #### Agregar archivo hugo.yaml
 
-Luego, seguir los pasos de esta
-[guía](https://gohugo.io/host-and-deploy/host-on-github-pages/) desde el sitio
-oficial de Hugo. **Omitir paso dos**.
+Luego, seguir los pasos de esta [guía](https://gohugo.io/host-and-deploy/host-on-github-pages/) desde el sitio oficial de Hugo. **Omitir paso dos**.
 
 
 #### Ignorar directorio public/
