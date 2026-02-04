@@ -167,7 +167,7 @@ luego mostrarán el resultado en el documento, por ejemplo con el comando `tree`
 tree ~/Code/lucasmartino95.github.io/content/post
 ```
 
-Este bloque de código lleva la opción `comment = ""`. Para evitar que incruste
+Este [bloque de código](#bloques-de-código) lleva la **opción** `comment = ""`. Para evitar que incruste
 comentarios en la salida. `{zsh, comment = ""}`
 
 ### Parámetros
