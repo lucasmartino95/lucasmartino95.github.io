@@ -77,11 +77,11 @@ cat ~/Code/dotfiles/.stow-local-ignore
 ```
 
 ```
-## README.md
-## .gitignore
-## .git
-## dotfiles_docs
-## .mypy_cache
+README.md
+.gitignore
+.git
+docs
+.mypy_cache
 ```
 
 ## Git y GitHub

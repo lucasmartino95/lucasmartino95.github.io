@@ -163,7 +163,7 @@ Lista de: [motores](https://rmarkdown.rstudio.com/lesson-5.html)
 Podemos utilizar **scripts de bash o zsh** que se ejecutarán en nuestra computadora  y
 luego mostrarán el resultado en el documento, por ejemplo con el comando `tree`
 
-```{zsh}
+```{zsh, comment = ""}
 tree ~/Code/lucasmartino95.github.io/content/post
 ```
 
@@ -228,7 +228,7 @@ Listo! Ahora solo queda **desplegar** el blog.
 
 4. Observemos el directorio donde se guardan los artículos:
 
-   ```{zsh}
+   ```{zsh, comment = ""}
    cd ~/Code/lucasmartino95.github.io
    tree content/post
    ```

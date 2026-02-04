@@ -70,7 +70,7 @@ ignorar, es decir, que **GNU Stow** no genere los enlaces simbólicos, por ejemp
 archivo `README.md`. Para eso podemos crear un archivo `.stow-local-ignore` y
 dentro colocamos el archivo o directorio que queremos ignorar. Por ejemplo:
 
-```{zsh}
+```{zsh, comment = ""}
 cat ~/Code/dotfiles/.stow-local-ignore
 ```
 
