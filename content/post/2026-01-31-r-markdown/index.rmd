@@ -310,3 +310,45 @@ Si editamos un archivo `.rmd`, aún debemos ejecutar
 `Rscript -e "blogdown::build_site('build_rmd = 'timestamp')"` y luego subir los
 cambios al repositorio. Luego GitHub Actions se encargará de actualizar la carpeta
 `public/` del repositorio.
+
+### Agregar soporte para comentarios
+
+Para el tema por defecto: **hugo-lithium**.
+
+Podemos habilitar una sección de comentarios en el pie de cada artículo. Esto lo
+podemos hacer con [Utterances](https://utteranc.es). Los pasos a seguir son muy
+sencillos:
+
+1. Crear un repositorio público en GitHub.
+
+2. [Instalar](https://github.com/apps/utterances) la app de Utterances en el repo
+   que creamos.
+
+3. Copiar el **script** de la página de [Utterances](https://utteranc.es) y
+   rellenar donde dice `repo="owner/repo"`:
+
+   ````{verbatim, lang = "html"}
+  <script src="https://utteranc.es/client.js"
+        repo="owner/repo"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
+   ````
+
+4. Pegar el **script** en `themes/hugo-lithium/layouts/partials` en un archivo
+   llamado `comments.html` (crearlo si no existe). 
+
+5. Finalmente, habilitar la sección de comentarios para cada artículo. Esto se
+   hace editando el archivo `single.html`, línea 25:
+
+    ```{zsh, comment = ""}
+    cat -n ~/Code/lucasmartino95.github.io/themes/hugo-lithium/layouts/_default/single.html
+    ```
+
+Listo! Ya podemos ver una sección de comentarios debajo de cada artículo.
+
+Utterances utiliza la sección **Issues** de GitHub, donde aloja los comentarios,
+por lo que si alguien quiere comentar en nuestro artículo, debe ingresar con su
+cuenta de GitHub.

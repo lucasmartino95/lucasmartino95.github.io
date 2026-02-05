@@ -356,3 +356,79 @@ Si editamos un archivo `.rmd`, aún debemos ejecutar
 `Rscript -e "blogdown::build_site('build_rmd = 'timestamp')"` y luego subir los
 cambios al repositorio. Luego GitHub Actions se encargará de actualizar la carpeta
 `public/` del repositorio.
+
+### Agregar soporte para comentarios
+
+Para el tema por defecto: **hugo-lithium**.
+
+Podemos habilitar una sección de comentarios en el pie de cada artículo. Esto lo
+podemos hacer con [Utterances](https://utteranc.es). Los pasos a seguir son muy
+sencillos:
+
+1. Crear un repositorio público en GitHub.
+
+2. [Instalar](https://github.com/apps/utterances) la app de Utterances en el repo
+   que creamos.
+
+3. Copiar el **script** de la página de [Utterances](https://utteranc.es) y
+   rellenar donde dice `repo="owner/repo"`:
+
+   
+   ``` html
+     <script src="https://utteranc.es/client.js"
+        repo="owner/repo"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+     </script>
+   ```
+
+4. Pegar el **script** en `themes/hugo-lithium/layouts/partials` en un archivo
+   llamado `comments.html` (crearlo si no existe). 
+
+5. Finalmente, habilitar la sección de comentarios para cada artículo. Esto se
+   hace editando el archivo `single.html`, línea 25:
+
+    
+    ``` zsh
+    cat -n ~/Code/lucasmartino95.github.io/themes/hugo-lithium/layouts/_default/single.html
+    ```
+    
+    ```
+         1	{{ partial "header.html" . }}
+         2	
+         3	<main class="content" role="main">
+         4	
+         5	  <article class="article">
+         6	    {{ if eq .Section "post" }}
+         7	    <span class="article-duration">{{ .ReadingTime }} min read</span>
+         8	    {{ end }}
+         9	
+        10	    <h1 class="article-title">{{ .Title }}</h1>
+        11	
+        12	    {{ if eq .Section "post" }}
+        13	    <span class="article-date">{{ .Date.Format "2006-01-02" }}</span>
+        14	    {{ end }}
+        15	
+        16	    <div class="article-content">
+        17	      {{ if .Params.toc }}
+        18	      {{ .TableOfContents }}
+        19	      {{ end }}
+        20	      {{ .Content }}
+        21	    </div>
+        22	  </article>
+        23	
+        24	  {{ partial "disqus.html" .}}
+        25	  {{ partial "comments.html" }}
+        26	
+        27	</main>
+        28	
+        29	{{ partial "footer.html" . }}
+    ```
+
+Listo! Ya podemos ver una sección de comentarios debajo de cada artículo.
+
+Utterances utiliza la sección **Issues** de GitHub, donde aloja los comentarios,
+por lo que si alguien quiere comentar en nuestro artículo, debe ingresar con su
+cuenta de GitHub.
