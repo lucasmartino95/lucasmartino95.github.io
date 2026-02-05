@@ -310,7 +310,7 @@ archivos convertidos en `.html` o `.md`
 ### Tabla de contenidos
 
 Para incluir una tabla de contenidos en nuestros artículos, debemos colocar 
-en el encabezado:
+en el encabezado de cada artículo `.rmd`:
 
 
 ``` yaml
