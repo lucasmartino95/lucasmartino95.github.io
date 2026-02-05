@@ -264,7 +264,7 @@ archivos convertidos en `.html` o `.md`
 
 ### Tabla de contenidos
 
-Para incluir una tabla de contenidos en nuestro documento convertido a `.html` debemos colocar
+Para incluir una tabla de contenidos en nuestros artículos, debemos colocar 
 en el encabezado:
 
 ````{verbatim, lang = "yaml"}
