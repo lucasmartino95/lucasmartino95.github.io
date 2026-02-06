@@ -7,7 +7,7 @@ ignoreFiles:
   - \.Rmarkdown$
   - _cache$
 permalinks:
-  post: /:year/:month/:day/:slug/
+  post: /:day/:month/:year/:slug/
 menu:
   main:
     - name: Sobre mí
