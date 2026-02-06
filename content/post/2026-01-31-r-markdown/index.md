@@ -486,10 +486,16 @@ menu:
 
 Yo lo cambie por
 
-`name`: Sobre mí
-`url`: /sobre-mi/
 
-Entonces, ahora editamos el archivo `content/about.md`. Agregamos lo siguiente al
+``` yaml
+- name: Sobre mí
+  url: /sobre-mi/
+```
+
+Entonces, ahora editamos el archivo `content/about.md` agregando lo siguiente al
 encabezado:
 
-`url: '/sobre-mi/'`
+
+``` yaml
+url: '/sobre-mi/'
+```
