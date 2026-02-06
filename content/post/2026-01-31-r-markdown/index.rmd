@@ -378,7 +378,7 @@ Estos archivos se encuentran en la carpeta del tema **hugo-lithium**. Si ya
 tenemos el archivo `single.html` en `layouts/_default` de nuestro directorio
 raíz, tan solo debemos copiar el archivo `list.html` de la [misma
 manera](#agregar-soporte-para-comentarios) que
-hicimos con `single.html` en el paso cinco y editarlos.
+hicimos con `single.html` en el paso cinco para poder editarlos.
 
 Por último, modificar el archivo `config.yaml` de nuestro directorio raíz y
 modificar la llave: 
@@ -387,4 +387,4 @@ modificar la llave:
 
 Por esto:
 
-`post: /:day/:month/:year/:slug
+`post: /:day/:month/:year/:slug`
