@@ -398,8 +398,7 @@ sencillos:
     
     mkdir -p layouts/_default
     
-    cp ~/Code/lucasmartino95.github.io/themes/hugo-lithium/layouts/_default/single.html layouts/_default
-    
+    cp themes/hugo-lithium/layouts/_default/single.html layouts/_default
     ```
 
     
