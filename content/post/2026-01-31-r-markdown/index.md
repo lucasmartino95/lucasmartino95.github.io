@@ -400,12 +400,11 @@ sencillos:
     
     cp ~/Code/lucasmartino95.github.io/themes/hugo-lithium/layouts/_default/single.html layouts/_default
     
-    cat -n ~/Code/lucasmartino95.github.io/layouts/_default/single.html
     ```
 
     
     ``` zsh
-    # Observar línea 25
+    # Observar línea 25, es la línea que debemos agregar
     cat -n ~/Code/lucasmartino95.github.io/layouts/_default/single.html
     ```
     
@@ -453,7 +452,7 @@ dice:
 
 `{{ .Date.Format "2006-01-02" }}`
 
-Fecha modificada:
+Por esto:
 
 `{{ .Date.Format "02-01-2006" }}`
 
