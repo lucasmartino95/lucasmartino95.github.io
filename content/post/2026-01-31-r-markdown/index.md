@@ -384,15 +384,29 @@ sencillos:
      </script>
    ```
 
-4. Pegar el **script** en `themes/hugo-lithium/layouts/partials` en un archivo
-   llamado `comments.html` (crearlo si no existe). 
+4. Pegar el **script** en `Code/lucasmartino95.github.io/layouts/partials` en un archivo
+   llamado `comments.html` (crear directorio y archivo si no existen). **Hugo** revisará primero esa
+   carpeta antes que la del tema **hugo-lithium**. Esto es muy útil ya que si se
+   actualiza el tema, no sobrescribirá nuestras modificaciones
 
-5. Finalmente, habilitar la sección de comentarios para cada artículo. Esto se
-   hace editando el archivo `single.html`, línea 25:
+5. Finalmente, habilitar la sección de comentarios para cada artículo. También
+   vamos a copiar el archivo `single.html` de nuestro tema **hugo-lithium**: 
 
     
     ``` zsh
-    cat -n ~/Code/lucasmartino95.github.io/themes/hugo-lithium/layouts/_default/single.html
+    cd Code/lucasmartino95.github.io
+    
+    mkdir -p layouts/_default
+    
+    cp ~/Code/lucasmartino95.github.io/themes/hugo-lithium/layouts/_default/single.html layouts/_default
+    
+    cat -n ~/Code/lucasmartino95.github.io/layouts/_default/single.html
+    ```
+
+    Observar línea 25
+    
+    ``` zsh
+    cat -n ~/Code/lucasmartino95.github.io/layouts/_default/single.html
     ```
     
     ```
@@ -408,7 +422,7 @@ sencillos:
         10	    <h1 class="article-title">{{ .Title }}</h1>
         11	
         12	    {{ if eq .Section "post" }}
-        13	    <span class="article-date">{{ .Date.Format "2006-01-02" }}</span>
+        13	    <span class="article-date">{{ .Date.Format "02-01-2006" }}</span>
         14	    {{ end }}
         15	
         16	    <div class="article-content">
@@ -420,31 +434,12 @@ sencillos:
         22	  </article>
         23	
         24	  {{ partial "disqus.html" .}}
-        25	
-        26	</main>
-        27	
-        28	{{ partial "footer.html" . }}
+        25	  {{ partial "comments.hmtl" }}
+        26	
+        27	</main>
+        28	
+        29	{{ partial "footer.html" . }}
     ```
-
-6. **Paso extra**: Vamos a copiar el archivo `single.html` a una carpeta que
-   esté en la raíz de nuestro proyecto. De este modo, nos aseguramos que si se
-   actualiza el tema, no sobrescribirá nuestra modificación. **Hugo** primero
-   revisará esta carpeta antes que la carpeta `layouts` del tema:
-
-   
-   ```` default
-   ```{zsh}
-   cd ~/Code/lucasmartino95.github.io
-   
-   mkdir -p layouts/_default
-   
-   cp ~/Code/lucasmartino95.github.io/themes/hugo-lithium/layouts/_default/single.html layouts/_default
-   ```
-   ````
-
-Listo! Ya podemos ver una sección de comentarios debajo de cada artículo. Ya se
-puede **borrar la línea modificada** en el archivo `single.html` que está en el
-directorio del tema.
 
 Utterances utiliza la sección **Issues** de GitHub, donde aloja los comentarios,
 por lo que si alguien quiere comentar en nuestro artículo, debe ingresar con su

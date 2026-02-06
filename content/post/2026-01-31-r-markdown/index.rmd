@@ -337,34 +337,28 @@ sencillos:
   </script>
    ````
 
-4. Pegar el **script** en `themes/hugo-lithium/layouts/partials` en un archivo
-   llamado `comments.html` (crearlo si no existe). 
+4. Pegar el **script** en `Code/lucasmartino95.github.io/layouts/partials` en un archivo
+   llamado `comments.html` (crear directorio y archivo si no existen). **Hugo** revisará primero esa
+   carpeta antes que la del tema **hugo-lithium**. Esto es muy útil ya que si se
+   actualiza el tema, no sobrescribirá nuestras modificaciones
 
-5. Finalmente, habilitar la sección de comentarios para cada artículo. Esto se
-   hace editando el archivo `single.html`, línea 25:
+5. Finalmente, habilitar la sección de comentarios para cada artículo. También
+   vamos a copiar el archivo `single.html` de nuestro tema **hugo-lithium**: 
 
+    ````{verbatim, lang = "zsh"}
+    cd Code/lucasmartino95.github.io
+
+    mkdir -p layouts/_default
+
+    cp ~/Code/lucasmartino95.github.io/themes/hugo-lithium/layouts/_default/single.html layouts/_default
+
+    cat -n ~/Code/lucasmartino95.github.io/layouts/_default/single.html
+    ````
+
+    Observar línea 25
     ```{zsh, comment = ""}
-    cat -n ~/Code/lucasmartino95.github.io/themes/hugo-lithium/layouts/_default/single.html
+    cat -n ~/Code/lucasmartino95.github.io/layouts/_default/single.html
     ```
-
-6. **Paso extra**: Vamos a copiar el archivo `single.html` a una carpeta que
-   esté en la raíz de nuestro proyecto. De este modo, nos aseguramos que si se
-   actualiza el tema, no sobrescribirá nuestra modificación. **Hugo** primero
-   revisará esta carpeta antes que la carpeta `layouts` del tema:
-
-   ````{verbatim}
-   ```{zsh}
-   cd ~/Code/lucasmartino95.github.io
-
-   mkdir -p layouts/_default
-
-   cp ~/Code/lucasmartino95.github.io/themes/hugo-lithium/layouts/_default/single.html layouts/_default
-   ```
-   ````
-
-Listo! Ya podemos ver una sección de comentarios debajo de cada artículo. Ya se
-puede **borrar la línea modificada** en el archivo `single.html` que está en el
-directorio del tema.
 
 Utterances utiliza la sección **Issues** de GitHub, donde aloja los comentarios,
 por lo que si alguien quiere comentar en nuestro artículo, debe ingresar con su
