@@ -389,8 +389,8 @@ sencillos:
    carpeta antes que la del tema **hugo-lithium**. Esto es muy útil ya que si se
    actualiza el tema, no sobrescribirá nuestras modificaciones
 
-5. Finalmente, habilitar la sección de comentarios para cada artículo. También
-   vamos a copiar el archivo `single.html` de nuestro tema **hugo-lithium**: 
+5. Finalmente, habilitar la sección de comentarios para cada artículo. Vamos 
+   a copiar el archivo `single.html` de nuestro tema **hugo-lithium**: 
 
     
     ``` zsh
@@ -403,9 +403,9 @@ sencillos:
     cat -n ~/Code/lucasmartino95.github.io/layouts/_default/single.html
     ```
 
-    Observar línea 25
     
     ``` zsh
+    # Observar línea 25
     cat -n ~/Code/lucasmartino95.github.io/layouts/_default/single.html
     ```
     
@@ -446,3 +446,19 @@ por lo que si alguien quiere comentar en nuestro artículo, debe ingresar con su
 cuenta de GitHub.
 
 ### Cambiar formato de fecha al español
+
+Para cambiar la fecha que se muestra en el blog al español, debemos modificar
+los archivos `single.html` y `list.html`. En ambos debemos cambiar la línea que
+dice:
+
+`{{ .Date.Format "2006-01-02" }}`
+
+Fecha modificada:
+
+`{{ .Date.Format "02-01-2006" }}`
+
+Estos archivos se encuentran en la carpeta del tema **hugo-lithium**. Si ya
+tenemos el archivo `single.html` en `layouts/_default` de nuestro directorio
+raíz, tan solo debemos copiar el archivo `list.html` de la [misma
+manera](#agregar-soporte-para-comentarios) que
+hicimos con `single.html` en el paso cinco y editarlos.
