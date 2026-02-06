@@ -350,7 +350,7 @@ sencillos:
 6. **Paso extra**: Vamos a copiar el archivo `single.html` a una carpeta que
    esté en la raíz de nuestro proyecto. De este modo, nos aseguramos que si se
    actualiza el tema, no sobrescribirá nuestra modificación. **Hugo** primero
-   revisará esta carpeta antes que la carpeta `layouts` de tema:
+   revisará esta carpeta antes que la carpeta `layouts` del tema:
 
    ````{verbatim, lang = "zsh"}
    cd ~/Code/lucasmartino95.github.io
@@ -361,7 +361,7 @@ sencillos:
    ````
 
 Listo! Ya podemos ver una sección de comentarios debajo de cada artículo. Ya se
-puede borrar la línea modificada en el archivo `single.html` que está en el
+puede **borrar la línea modificada** en el archivo `single.html` que está en el
 directorio del tema.
 
 Utterances utiliza la sección **Issues** de GitHub, donde aloja los comentarios,
