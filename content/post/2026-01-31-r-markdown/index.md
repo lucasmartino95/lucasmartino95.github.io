@@ -371,7 +371,7 @@ sencillos:
    que creamos.
 
 3. Copiar el **script** de la página de [Utterances](https://utteranc.es) y
-   rellenar donde dice `repo="owner/repo"`:
+   luego de pegarlo rellenar donde dice `repo="owner/repo"`:
 
    
    ``` html
