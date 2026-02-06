@@ -420,14 +420,29 @@ sencillos:
         22	  </article>
         23	
         24	  {{ partial "disqus.html" .}}
-        25	  {{ partial "comments.html" }}
-        26	
-        27	</main>
-        28	
-        29	{{ partial "footer.html" . }}
+        25	
+        26	</main>
+        27	
+        28	{{ partial "footer.html" . }}
     ```
 
-Listo! Ya podemos ver una sección de comentarios debajo de cada artículo.
+6. **Paso extra**: Vamos a copiar el archivo `single.html` a una carpeta que
+   esté en la raíz de nuestro proyecto. De este modo, nos aseguramos que si se
+   actualiza el tema, no sobrescribirá nuestra modificación. **Hugo** primero
+   revisará esta carpeta antes que la carpeta `layouts` de tema:
+
+   
+   ``` zsh
+   cd ~/Code/lucasmartino95.github.io
+   
+   mkdir -p layouts/_default
+   
+   cp ~/Code/lucasmartino95.github.io/themes/hugo-lithium/layouts/_default/single.html layouts/_default
+   ```
+
+Listo! Ya podemos ver una sección de comentarios debajo de cada artículo. Ya se
+puede borrar la línea modificada en el archivo `single.html` que está en el
+directorio del tema.
 
 Utterances utiliza la sección **Issues** de GitHub, donde aloja los comentarios,
 por lo que si alguien quiere comentar en nuestro artículo, debe ingresar con su
