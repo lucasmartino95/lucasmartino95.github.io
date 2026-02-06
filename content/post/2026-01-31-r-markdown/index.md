@@ -459,7 +459,8 @@ Estos archivos se encuentran en la carpeta del tema **hugo-lithium**. Si ya
 tenemos el archivo `single.html` en `layouts/_default` de nuestro directorio
 raíz, tan solo debemos copiar el archivo `list.html` de la [misma
 manera](#agregar-soporte-para-comentarios) que
-hicimos con `single.html` en el paso cinco para poder editarlos.
+hicimos con `single.html` en el paso cinco para poder editarlos y conservar las
+modificaciones.
 
 Por último, modificar el archivo `config.yaml` de nuestro directorio raíz y
 modificar la llave: 
