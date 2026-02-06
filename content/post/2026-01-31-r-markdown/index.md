@@ -432,13 +432,15 @@ sencillos:
    revisará esta carpeta antes que la carpeta `layouts` del tema:
 
    
-   ``` zsh
+   ```` default
+   ```{zsh}
    cd ~/Code/lucasmartino95.github.io
    
    mkdir -p layouts/_default
    
    cp ~/Code/lucasmartino95.github.io/themes/hugo-lithium/layouts/_default/single.html layouts/_default
    ```
+   ````
 
 Listo! Ya podemos ver una sección de comentarios debajo de cada artículo. Ya se
 puede **borrar la línea modificada** en el archivo `single.html` que está en el
@@ -447,3 +449,5 @@ directorio del tema.
 Utterances utiliza la sección **Issues** de GitHub, donde aloja los comentarios,
 por lo que si alguien quiere comentar en nuestro artículo, debe ingresar con su
 cuenta de GitHub.
+
+### Cambiar formato de fecha al español
