@@ -391,7 +391,7 @@ Por esto:
 `post: /:day/:month/:year/:slug`
 
 
-### Cambiar url de la página "About"
+### Cambiar URL de la página "About"
 
 Editamos `.config.yaml` del directorio raíz:
 
