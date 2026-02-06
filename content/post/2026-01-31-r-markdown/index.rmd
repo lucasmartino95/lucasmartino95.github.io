@@ -103,7 +103,7 @@ Luego, ejecutar el siguiente comando de conversión:
 Redactar un texto en **R Markdown** es tan simple como **seguir las reglas de
 Markdown**. Por ejemplo:
 
-  ````{verbatim}
+  ````{verbatim, lang = "markdown"}
   Encabezados:
   # Título
   ## Subtítulo

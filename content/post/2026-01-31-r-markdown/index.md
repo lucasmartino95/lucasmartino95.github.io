@@ -106,7 +106,7 @@ Redactar un texto en **R Markdown** es tan simple como **seguir las reglas de
 Markdown**. Por ejemplo:
 
   
-  ``` default
+  ``` markdown
   Encabezados:
   # Título
   ## Subtítulo
