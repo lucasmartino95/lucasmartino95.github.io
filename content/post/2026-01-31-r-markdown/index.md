@@ -433,8 +433,10 @@ sencillos:
 
 **Giscus** utiliza la sección **Discussions** de GitHub, donde aloja los comentarios,
 por lo que si alguien quiere comentar en nuestro artículo, debe ingresar con su
-cuenta de GitHub. Un acierto de **Giscus** es que tiene traducción al
-español. Solo debemos establecer el idioma español en el **script**
+cuenta de GitHub.
+
+Un acierto de **Giscus** es que tiene traducción al
+español. Solo debemos establecer el idioma en el **script**.
 
 ### Cambiar formato de fecha al español
 
@@ -491,4 +493,15 @@ encabezado:
 
 ``` yaml
 url: '/sobre-mi/'
+```
+
+### Definir lenguaje de nuestro sitio
+
+Lo último que nos queda por hacer si es que deseamos tener nuestro blog en
+español, es definir el atributo `lang` en nuestros `.html`. Para eso, lo que
+tenemos que hacer es solo una cosa, editar `config.yaml`
+
+
+``` yaml
+languageCode: es-AR
 ```
