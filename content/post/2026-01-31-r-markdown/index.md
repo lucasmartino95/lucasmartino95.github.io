@@ -382,7 +382,7 @@ sencillos:
    actualiza el tema, no sobrescribirá nuestras modificaciones.
 
 5. Finalmente, habilitar la sección de comentarios para cada artículo. Vamos 
-   a copiar el archivo `single.html` de nuestro tema **hugo-lithium**: 
+   a copiar el archivo `single.html` de nuestro tema **hugo-lithium** y editarlo: 
 
     
     ``` zsh
