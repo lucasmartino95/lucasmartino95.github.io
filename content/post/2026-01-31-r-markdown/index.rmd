@@ -313,6 +313,8 @@ cambios al repositorio. Luego GitHub Actions se encargará de actualizar la carp
 
 ### Agregar soporte para comentarios
 
+**Esta sección será reemplazada por Giscus que tiene soporte en español**
+
 Para el tema por defecto: **hugo-lithium**.
 
 Podemos habilitar una sección de comentarios en el pie de cada artículo. Esto lo
