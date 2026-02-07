@@ -359,34 +359,23 @@ cambios al repositorio. Luego GitHub Actions se encargará de actualizar la carp
 
 ### Agregar soporte para comentarios
 
-**Esta sección será reemplazada por Giscus que tiene soporte en español**
-
 Para el tema por defecto: **hugo-lithium**.
 
 Podemos habilitar una sección de comentarios en el pie de cada artículo. Esto lo
-podemos hacer con [Utterances](https://utteranc.es). Los pasos a seguir son muy
+podemos hacer con [Giscus](https://giscus.app/es). Los pasos a seguir son muy
 sencillos:
 
 1. Crear un repositorio público en GitHub.
 
-2. [Instalar](https://github.com/apps/utterances) la app de Utterances en el repo
+2. [Instalar](https://github.com/apps/giscus) la app de Giscus en el repo
    que creamos.
 
-3. Copiar el **script** de la página de [Utterances](https://utteranc.es) y
-   luego de pegarlo rellenar donde dice `repo="owner/repo"`:
+3. [Habilitar Discussions en el
+   repositorio](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/enabling-or-disabling-github-discussions-for-a-repository)
 
-   
-   ``` html
-     <script src="https://utteranc.es/client.js"
-        repo="owner/repo"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-     </script>
-   ```
+4. Copiar el **script** de la página de [Giscus](https://giscus.app/es)
 
-4. Pegar el **script** en `Code/lucasmartino95.github.io/layouts/partials` en un archivo
+5. Pegar el **script** en `Code/lucasmartino95.github.io/layouts/partials` en un archivo
    llamado `comments.html` (crear directorio y archivo si no existen). **Hugo** revisará primero esa
    carpeta antes que la del tema **hugo-lithium**. Esto es muy útil ya que si se
    actualiza el tema, no sobrescribirá nuestras modificaciones
@@ -441,7 +430,7 @@ sencillos:
         29	{{ partial "footer.html" . }}
     ```
 
-Utterances utiliza la sección **Issues** de GitHub, donde aloja los comentarios,
+Giscus utiliza la sección **Discussions** de GitHub, donde aloja los comentarios,
 por lo que si alguien quiere comentar en nuestro artículo, debe ingresar con su
 cuenta de GitHub.
 
