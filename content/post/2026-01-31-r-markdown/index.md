@@ -431,9 +431,10 @@ sencillos:
         29	{{ partial "footer.html" . }}
     ```
 
-Giscus utiliza la sección **Discussions** de GitHub, donde aloja los comentarios,
+**Giscus** utiliza la sección **Discussions** de GitHub, donde aloja los comentarios,
 por lo que si alguien quiere comentar en nuestro artículo, debe ingresar con su
-cuenta de GitHub.
+cuenta de GitHub. Un acierto de **Giscus** es que tiene traducción al
+español. Solo debemos establecer el idioma español en el **script**
 
 ### Cambiar formato de fecha al español
 
