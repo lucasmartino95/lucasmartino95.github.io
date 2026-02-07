@@ -381,7 +381,7 @@ sencillos:
    carpeta antes que la del tema **hugo-lithium**. Esto es muy útil ya que si se
    actualiza el tema, no sobrescribirá nuestras modificaciones.
 
-5. Finalmente, habilitar la sección de comentarios para cada artículo. Vamos 
+6. Finalmente, habilitar la sección de comentarios para cada artículo. Vamos 
    a copiar el archivo `single.html` de nuestro tema **hugo-lithium** y editarlo: 
 
     
@@ -454,7 +454,7 @@ Estos archivos se encuentran en la carpeta del tema **hugo-lithium**. Si ya
 tenemos el archivo `single.html` en `layouts/_default` de nuestro directorio
 raíz, tan solo debemos copiar el archivo `list.html` de la [misma
 manera](#agregar-soporte-para-comentarios) que
-hicimos con `single.html` en el paso cinco para poder editarlos y conservar las
+hicimos con `single.html` en el paso seis para poder editarlos y conservar las
 modificaciones.
 
 Por último, modificar el archivo `config.yaml` de nuestro directorio raíz y
