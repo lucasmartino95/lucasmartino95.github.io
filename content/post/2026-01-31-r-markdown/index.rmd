@@ -325,14 +325,15 @@ sencillos:
    que creamos.
 
 3. [Habilitar Discussions en el
-   repositorio](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/enabling-or-disabling-github-discussions-for-a-repository)
+   repositorio](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/enabling-or-disabling-github-discussions-for-a-repository).
 
-4. Copiar el **script** de la página de [Giscus](https://giscus.app/es)
+4. Copiar el **script** de la página de [Giscus](https://giscus.app/es) luego de
+   haber completado la configuración en el mismo sitio web.
 
 5. Pegar el **script** en `Code/lucasmartino95.github.io/layouts/partials` en un archivo
    llamado `comments.html` (crear directorio y archivo si no existen). **Hugo** revisará primero esa
    carpeta antes que la del tema **hugo-lithium**. Esto es muy útil ya que si se
-   actualiza el tema, no sobrescribirá nuestras modificaciones
+   actualiza el tema, no sobrescribirá nuestras modificaciones.
 
 5. Finalmente, habilitar la sección de comentarios para cada artículo. Vamos 
    a copiar el archivo `single.html` de nuestro tema **hugo-lithium**: 
