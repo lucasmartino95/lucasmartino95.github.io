@@ -498,8 +498,9 @@ url: '/sobre-mi/'
 ### Definir lenguaje de nuestro sitio
 
 Lo último que nos queda por hacer si es que deseamos tener nuestro blog en
-español, es definir el atributo `lang` en nuestros `.html`. Para eso, lo que
-tenemos que hacer es solo una cosa, editar `config.yaml`
+español, es definir el atributo `lang` en nuestros `.html`
+
+Para eso, lo que tenemos que hacer es solo una cosa, editar `config.yaml`
 
 
 ``` yaml
