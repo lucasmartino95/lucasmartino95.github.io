@@ -443,6 +443,14 @@ cuenta de GitHub.
 Un acierto de **Giscus** es que tiene traducción al
 español. Solo debemos establecer el idioma en el **script**.
 
+Para deshabilitar los comentarios en la página "About", editar
+`content/about.md`, y agregar al encabezado:
+
+
+``` yaml
+comments: false
+```
+
 ### Cambiar formato de fecha al español
 
 Para cambiar la fecha que se muestra en el blog al español, debemos modificar
