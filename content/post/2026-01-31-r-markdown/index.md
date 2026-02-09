@@ -301,7 +301,9 @@ Listo! Ahora solo queda **desplegar** el blog.
 
 **NOTA**: `build_rmd = 'timestamp'` lo que hace es actualizar **solo** los
 artículos `.rmd` que han sido modificados reciéntemente con respecto a los
-archivos convertidos en `.html` o `.md`. **Si sucede que no se actualizan** los
+archivos convertidos en `.html` o `.md`
+
+**Si sucede que no se actualizan** los
 bloques de código, establecer `build_rmd = TRUE` para forzar la conversión.
 
 **NOTA 2**: El paquete `blogdown` utiliza el generador de sitios estáticos
