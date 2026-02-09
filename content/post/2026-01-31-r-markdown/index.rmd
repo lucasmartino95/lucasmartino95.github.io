@@ -256,7 +256,8 @@ Listo! Ahora solo queda **desplegar** el blog.
 
 **NOTA**: `build_rmd = 'timestamp'` lo que hace es actualizar **solo** los
 artículos `.rmd` que han sido modificados reciéntemente con respecto a los
-archivos convertidos en `.html` o `.md`
+archivos convertidos en `.html` o `.md`. **Si sucede que no se actualizan** los
+bloques de código, establecer `build_rmd = TRUE` para forzar la conversión.
 
 **NOTA 2**: El paquete `blogdown` utiliza el generador de sitios estáticos
 **Hugo**. Cada vez que inicializamos un blog, automáticamente si hace falta,
@@ -347,7 +348,7 @@ sencillos:
     ````
 
     ```{zsh, comment = ""}
-    # Observar línea 25, es la línea que debemos agregar
+    # Observar línea 25 a 27, es lo que debemos agregar
     cat -n ~/Code/lucasmartino95.github.io/layouts/_default/single.html
     ```
 

@@ -301,7 +301,8 @@ Listo! Ahora solo queda **desplegar** el blog.
 
 **NOTA**: `build_rmd = 'timestamp'` lo que hace es actualizar **solo** los
 artículos `.rmd` que han sido modificados reciéntemente con respecto a los
-archivos convertidos en `.html` o `.md`
+archivos convertidos en `.html` o `.md`. **Si sucede que no se actualizan** los
+bloques de código, establecer `build_rmd = TRUE` para forzar la conversión.
 
 **NOTA 2**: El paquete `blogdown` utiliza el generador de sitios estáticos
 **Hugo**. Cada vez que inicializamos un blog, automáticamente si hace falta,
@@ -395,7 +396,7 @@ sencillos:
 
     
     ``` zsh
-    # Observar línea 25, es la línea que debemos agregar
+    # Observar línea 25 a 27, es lo que debemos agregar
     cat -n ~/Code/lucasmartino95.github.io/layouts/_default/single.html
     ```
     
@@ -406,7 +407,7 @@ sencillos:
          4	
          5	  <article class="article">
          6	    {{ if eq .Section "post" }}
-         7	    <span class="article-duration">{{ .ReadingTime }} min read</span>
+         7	    <span class="article-duration">Lectura de {{ .ReadingTime }} minutos</span>
          8	    {{ end }}
          9	
         10	    <h1 class="article-title">{{ .Title }}</h1>
@@ -424,11 +425,13 @@ sencillos:
         22	  </article>
         23	
         24	  {{ partial "disqus.html" .}}
-        25	  {{ partial "comments.hmtl" }}
-        26	
-        27	</main>
+        25	  {{ if .Params.comments | default true }}
+        26	    {{ partial "comments.hmtl" }}
+        27	  {{ end }}
         28	
-        29	{{ partial "footer.html" . }}
+        29	</main>
+        30	
+        31	{{ partial "footer.html" . }}
     ```
 
 **Giscus** utiliza la sección **Discussions** de GitHub, donde aloja los comentarios,
