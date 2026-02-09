@@ -22,7 +22,9 @@
   </article>
 
   {{ partial "disqus.html" .}}
-  {{ partial "comments.hmtl" }}
+  {{ if .Params.comments | default true }}
+    {{ partial "comments.hmtl" }}
+  {{ end }}
 
 </main>
 
