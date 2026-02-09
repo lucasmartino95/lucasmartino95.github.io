@@ -444,7 +444,7 @@ Un acierto de **Giscus** es que tiene traducción al
 español. Solo debemos establecer el idioma en el **script**.
 
 Para **deshabilitar los comentarios** en la página "About", editar
-`content/about.md`, y agregar al encabezado:
+`content/about.md` y agregar al encabezado:
 
 
 ``` yaml
@@ -536,7 +536,7 @@ menu:
       url: /about/
 ```
 
-Yo lo cambie por
+Yo lo cambié por
 
 
 ``` yaml
