@@ -443,12 +443,56 @@ cuenta de GitHub.
 Un acierto de **Giscus** es que tiene traducción al
 español. Solo debemos establecer el idioma en el **script**.
 
-Para deshabilitar los comentarios en la página "About", editar
+Para **deshabilitar los comentarios** en la página "About", editar
 `content/about.md`, y agregar al encabezado:
 
 
 ``` yaml
 comments: false
+```
+
+### Editar cuadro de tiempo de lectura
+
+
+``` zsh
+cd ~/Code/lucasmartino95.github.io
+cat -n layouts/_default/single.html
+
+# Observar línea 7
+```
+
+```
+     1	{{ partial "header.html" . }}
+     2	
+     3	<main class="content" role="main">
+     4	
+     5	  <article class="article">
+     6	    {{ if eq .Section "post" }}
+     7	    <span class="article-duration">Lectura de {{ .ReadingTime }} minutos</span>
+     8	    {{ end }}
+     9	
+    10	    <h1 class="article-title">{{ .Title }}</h1>
+    11	
+    12	    {{ if eq .Section "post" }}
+    13	    <span class="article-date">{{ .Date.Format "02-01-2006" }}</span>
+    14	    {{ end }}
+    15	
+    16	    <div class="article-content">
+    17	      {{ if .Params.toc }}
+    18	      {{ .TableOfContents }}
+    19	      {{ end }}
+    20	      {{ .Content }}
+    21	    </div>
+    22	  </article>
+    23	
+    24	  {{ partial "disqus.html" .}}
+    25	  {{ if .Params.comments | default true }}
+    26	    {{ partial "comments.hmtl" }}
+    27	  {{ end }}
+    28	
+    29	</main>
+    30	
+    31	{{ partial "footer.html" . }}
 ```
 
 ### Cambiar formato de fecha al español

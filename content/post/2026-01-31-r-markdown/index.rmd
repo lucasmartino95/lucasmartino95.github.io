@@ -361,12 +361,21 @@ cuenta de GitHub.
 Un acierto de **Giscus** es que tiene traducción al
 español. Solo debemos establecer el idioma en el **script**.
 
-Para deshabilitar los comentarios en la página "About", editar
+Para **deshabilitar los comentarios** en la página "About", editar
 `content/about.md`, y agregar al encabezado:
 
 ````{verbatim, lang = "yaml"}
 comments: false
 ````
+
+### Editar cuadro de tiempo de lectura
+
+```{zsh, comment = ""}
+cd ~/Code/lucasmartino95.github.io
+cat -n layouts/_default/single.html
+
+# Observar línea 7
+```
 
 ### Cambiar formato de fecha al español
 
