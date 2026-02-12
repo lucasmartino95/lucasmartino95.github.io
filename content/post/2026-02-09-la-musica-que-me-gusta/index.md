@@ -111,7 +111,7 @@ después, en 1998, lanzó "¿Dónde están los ladrones?" que fue otro éxito.
 
 <iframe width="658" height="468" src="https://www.youtube.com/embed/fgvD663h9Os?list=RDfgvD663h9Os" title="Shakira - Inevitable (Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Panama
+## Panamá
 
 ### Billy Cobham
 
