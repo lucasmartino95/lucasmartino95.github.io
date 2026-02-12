@@ -146,7 +146,7 @@ Roback](https://es.wikipedia.org/wiki/David_Roback) y Kendra Smith.
 Posteriormente, Smith dejaría la banda, siendo reemplazada por [Hope
 Sandoval](https://es.wikipedia.org/wiki/Hope_Sandoval) en el rol de vocalista. Se 
 hicieron conocidos por el éxito "Fade into You" a mediados de los años 1990.
-Sandoval escribía las letras y Roback componía la música
+Sandoval escribía las letras y Roback componía la música.
 
 <iframe width="658" height="468" src="https://www.youtube.com/embed/FGzNErpGZPg?list=RDFGzNErpGZPg" title="Blue Flower" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
