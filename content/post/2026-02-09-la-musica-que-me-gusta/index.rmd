@@ -13,7 +13,7 @@ tags: []
 Me he dado cuenta que me gusta escuchar música de bandas o artistas de diferentes
 países, así que a continuación, voy a hacer una **lista de la música** que escucho
 dividida en cada país con una **breve introducción** de cada banda o artista y al
-final una canción de muestra.
+final una **canción de muestra**.
 
 Esta lista no representa absolutamente todas las bandas o artistas que escucho, sino **los que
 más me gustan**

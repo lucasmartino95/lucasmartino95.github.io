@@ -13,7 +13,7 @@ tags: []
 Me he dado cuenta que me gusta escuchar música de bandas o artistas de diferentes
 países, así que a continuación, voy a hacer una **lista de la música** que escucho
 dividida en cada país con una **breve introducción** de cada banda o artista y al
-final una canción de muestra.
+final una **canción de muestra**.
 
 Esta lista no representa absolutamente todas las bandas o artistas que escucho, sino **los que
 más me gustan**
@@ -26,7 +26,7 @@ más me gustan**
 Cerati](https://es.wikipedia.org/wiki/Gustavo_Cerati), [Zeta
 Bosio](https://es.wikipedia.org/wiki/Zeta_Bosio) y [Charly
 Alberti](https://es.wikipedia.org/wiki/Charly_Alberti). Protagonizaron géneros
-como: Pop rock, new wave, rock alternativo y rock electrónico.
+como: pop rock, new wave, rock alternativo y rock electrónico.
 
 <iframe width="658" height="468" src="https://www.youtube.com/embed/vo7jBHB66q4?list=RDvo7jBHB66q4" title="En la Ciudad de la Furia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -62,9 +62,8 @@ tropical**.
 
 ### Charly García
 
-Charly García nació el 23 de octubre de 1951. Es un músico cantautor,
-multinstrumentista, compositor y productor discográfico argentino.
-Su música explora múltiples géneros desde: folk rock, rock progresivo, new wave,
+Charly García nació el 23 de octubre de 1951. Su música explora múltiples 
+géneros desde: folk rock, rock progresivo, new wave, 
 pop rock, pop barroco y synth pop. En su adolescencia fundó la banda [Sui
 Generis](https://es.wikipedia.org/wiki/Sui_Generis_(banda)) junto a su compañero
 de clase [Nito Mestre](https://es.wikipedia.org/wiki/Nito_Mestre).
@@ -95,8 +94,8 @@ década de 1970.
 
 Empezó en la música cuando tenía diez años, como integrante de la comparsa de
 negros y lubolos Morenada. De los quince a los dieciséis salió en una murga que
-se llamaba La Nueva Milonga. A los diecisiete debutó como forntman en la banda
-Los Hot Blowers con el seudónimo Richie Silver. En 1969 logró grabar su primer
+se llamaba "La Nueva Milonga". A los diecisiete debutó como *frontman* en la banda
+"Los Hot Blowers" con el seudónimo Richie Silver. En 1969 logró grabar su primer
 álbum como solista "Rada".
 
 <iframe width="658" height="468" src="https://www.youtube.com/embed/K3tNbHU6Y78?list=RDK3tNbHU6Y78" title="No Me Queda Más Tiempo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -145,7 +144,7 @@ rock](https://es.wikipedia.org/wiki/Heartland_rock) y tiene muchos éxitos, como
 Es una banda de rock alternativo formada en 1989 por [David
 Roback](https://es.wikipedia.org/wiki/David_Roback) y Kendra Smith.
 Posteriormente, Smith dejaría la banda, siendo reemplazada por [Hope
-Sandoval](https://es.wikipedia.org/wiki/Hope_Sandoval) en el rol de vocalista.Se
+Sandoval](https://es.wikipedia.org/wiki/Hope_Sandoval) en el rol de vocalista. Se 
 hicieron conocidos por el éxito "Fade into You" a mediados de los años 1990.
 Sandoval escribía las letras y Roback componía la música
 
