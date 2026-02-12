@@ -73,7 +73,7 @@ de clase [Nito Mestre](https://es.wikipedia.org/wiki/Nito_Mestre).
 ### Pacifica
 
 Pacifica es un dúo femenino de indie rock/garage rock, formado por Inés Adam y
-Martina Nintzel. Conocidas por hacer covers de [The Strokes](https://en.wikipedia.org/wiki/The_Strokes) aunque han lanzado un álbum con temas propios.
+Martina Nintzel. Conocidas por hacer covers de [The Strokes](https://en.wikipedia.org/wiki/The_Strokes) aunque han lanzado álbumes propios.
 
 <iframe width="658" height="370" src="https://www.youtube.com/embed/9HqVMsYv05A?list=RDWKrt2JwUFYQ" title="Pacifica - Change Your Mind (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
