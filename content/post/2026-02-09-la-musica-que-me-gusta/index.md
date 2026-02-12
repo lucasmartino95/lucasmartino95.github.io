@@ -32,7 +32,7 @@ como: Pop rock, new wave, rock alternativo y rock electrónico.
 
 ### Gustavo Cerati
 
-Gustavo Cerati nacido el 11 de agosto de 1959, conocido por ser líder,
+Gustavo Cerati nació el 11 de agosto de 1959. Es conocido por ser líder,
 vocalista, compositor y guitarrista de la banda de rock [Soda
 Stereo](#soda-stereo). Comenzó su carrera como solista en 1993 con su disco 
 [Amor Amarillo](https://es.wikipedia.org/wiki/Amor_amarillo) y se consolidó 
