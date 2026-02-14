@@ -184,11 +184,20 @@ tree ~/Code/lucasmartino95.github.io/content/post
 │   ├── index.md
 │   ├── index.rmd
 │   └── index.rmd.lock~
-└── 2026-02-03-dotfiles
+├── 2026-02-03-dotfiles
+│   ├── index.md
+│   ├── index.rmd
+│   └── index.rmd.lock~
+├── 2026-02-09-la-musica-que-me-gusta
+│   ├── index.md
+│   ├── index.rmd
+│   └── index.rmd.lock~
+└── 2026-02-13-zsh-instalacion-y-configuracion
     ├── index.md
-    └── index.rmd
+    ├── index.rmd
+    └── index.rmd.lock~
 
-3 directories, 5 files
+5 directories, 12 files
 ```
 
 Este [bloque de código](#bloques-de-código) lleva la **opción** `comment = ""` para evitar que incruste
@@ -273,11 +282,20 @@ Listo! Ahora solo queda **desplegar** el blog.
    │   ├── index.md
    │   ├── index.rmd
    │   └── index.rmd.lock~
-   └── 2026-02-03-dotfiles
+   ├── 2026-02-03-dotfiles
+   │   ├── index.md
+   │   ├── index.rmd
+   │   └── index.rmd.lock~
+   ├── 2026-02-09-la-musica-que-me-gusta
+   │   ├── index.md
+   │   ├── index.rmd
+   │   └── index.rmd.lock~
+   └── 2026-02-13-zsh-instalacion-y-configuracion
        ├── index.md
-       └── index.rmd
+       ├── index.rmd
+       └── index.rmd.lock~
    
-   3 directories, 5 files
+   5 directories, 12 files
    ```
 
    Los artículos utilizan la extensión `.rmd`. Estos artículos no se mostrarán en
