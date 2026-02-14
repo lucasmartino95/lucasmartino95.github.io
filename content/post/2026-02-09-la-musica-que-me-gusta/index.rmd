@@ -109,8 +109,7 @@ Apodada la Reina del pop latino, inició su carrera en 1991 y luego de unos
 intentos fallidos, lanzó el álbum "Pies descalzos", que fue un éxito. Años
 después, en 1998, lanzó "¿Dónde están los ladrones?" que fue otro éxito.
 
-[Shakira -
-Inevitable](https://music.youtube.com/watch?v=KvsC0FXhAwU&si=ZqU1ATC-baEXssFC)
+[Inevitable](https://music.youtube.com/watch?v=KvsC0FXhAwU&si=ZqU1ATC-baEXssFC)
 
 ## Panamá
 
