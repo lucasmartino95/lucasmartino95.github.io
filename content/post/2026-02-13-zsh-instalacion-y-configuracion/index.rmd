@@ -15,7 +15,7 @@ interfaz de usuario tradicional para los **sitemas operativos tipo Unix**. Por
 defecto en las distribuciones de Linux, lo más común es encontrarnos con la
 *shell* **Bash**.
 
-Con **Zsh** podemos tener un mejor autocompletado de comandos y resaltado de
+Con **Zsh** podemos tener un mejor autocompletado de comandos y además resaltado de
 sintáxis.
 
 ## Instalación
@@ -84,8 +84,8 @@ interactivamente a través de la historia de nuestros comandos con `ctrl + r`
 
 Esto es muy útil ya que podemos dejar de recordar todos los comandos y en su
 lugar utilizar `fzf` y escribir alguna palabra que se encuentre en el comando
-que queremos ejecutar. También hay otros comandos útiles, revisar 
-[fzf](https://wiki.archlinux.org/title/Fzf). Para instalarlo y configurarlo es muy simple:
+que queremos ejecutar. También hay otros comandos útiles, en la 
+[ArchWiki](https://wiki.archlinux.org/title/Fzf) están documentados. Para instalarlo y configurarlo es muy simple:
 
 1. `sudo pacman -S fzf`
 
