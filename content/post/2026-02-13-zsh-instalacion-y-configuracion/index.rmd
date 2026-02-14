@@ -66,8 +66,8 @@ _comp_options+=(globdots)		# Include hidden files.
 Para el resaltado de sintáxis vamos a utilizar un plugin. Con el siguiente
 comando lo instalamos:
 
-`git clone https://github.com/zdharma-continuum/fast-syntax-highlighting
-~/usr/share/zsh/plugins/fast-syntax-highlighting`
+`git clone https://github.com/zdharma-continuum/fast-syntax-highlighting 
+/usr/share/zsh/plugins/fast-syntax-highlighting`
 
 Luego, al final del `.zshrc` añadimos:
 
