@@ -28,7 +28,8 @@ Bosio](https://es.wikipedia.org/wiki/Zeta_Bosio) y [Charly
 Alberti](https://es.wikipedia.org/wiki/Charly_Alberti). Protagonizaron géneros
 como: pop rock, new wave, rock alternativo y rock electrónico.
 
-<iframe width="658" height="468" src="https://www.youtube.com/embed/vo7jBHB66q4?list=RDvo7jBHB66q4" title="En la Ciudad de la Furia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Soda Stereo - En la Ciudad de la
+Furia](https://music.youtube.com/watch?v=vo7jBHB66q4&si=iJOJYVStdBMMmsm2)
 
 ### Gustavo Cerati
 
@@ -38,7 +39,8 @@ Stereo](#soda-stereo). Comenzó su carrera como solista en 1993 con su disco
 [Amor Amarillo](https://es.wikipedia.org/wiki/Amor_amarillo) y se consolidó 
 luego de la separación de Soda Stereo en 1997. 
 
-<iframe width="658" height="468" src="https://www.youtube.com/embed/O-sKl38qPQA?list=RDO-sKl38qPQA" title="Gustavo Cerati - Rapto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Gustavo Cerati -
+Rapto](https://music.youtube.com/watch?v=e6R-Uhk4HLQ&si=A5TJPFELNiwFIP_M)
 
 ### Luís Alberto Spinetta
 
@@ -49,7 +51,8 @@ Rabioso](https://es.wikipedia.org/wiki/Pescado_Rabioso) e
 [Invisible](https://es.wikipedia.org/wiki/Invisible_(banda)), introductoras de
 géneros como: hard rock, blues, y rock progresivo.
 
-<iframe width="658" height="468" src="https://www.youtube.com/embed/Wvmfopb2b9A?list=RDWvmfopb2b9A" title="Cielo De Ti" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Luís Alberto
+Spinetta](https://music.youtube.com/watch?v=Wvmfopb2b9A&si=tYaCxI2SolvOq8WW)
 
 ### Gilda
 
@@ -57,8 +60,8 @@ Gilda nació el 11 de octubre de 1961, era originalmente una maestra jardinera
 que luego se volcó a la música. Se destacó rápidamente en el género de **cumbia
 tropical**.
 
-<iframe width="658" height="468" src="https://www.youtube.com/embed/wKcOvYDy0OU?list=RDwKcOvYDy0OU" title="Paisaje" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+[Gilda -
+Paisaje](https://music.youtube.com/watch?v=wKcOvYDy0OU&si=HVR9J9Qvg_OAI5yo)
 
 ### Charly García
 
@@ -68,14 +71,16 @@ pop rock, pop barroco y synth pop. En su adolescencia fundó la banda [Sui
 Generis](https://es.wikipedia.org/wiki/Sui_Generis_(banda)) junto a su compañero
 de clase [Nito Mestre](https://es.wikipedia.org/wiki/Nito_Mestre).
 
-<iframe width="658" height="370" src="https://www.youtube.com/embed/h9AHQV3pPn8?list=RDh9AHQV3pPn8" title="Charly García - Ojos De Video Tape (Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Charly
+García- Ojos de Video Tape](https://music.youtube.com/watch?v=QzOC1bd8Kow&si=vgNptYhZyfGxHBl0)
 
 ### Pacifica
 
 Pacifica es un dúo femenino de indie rock/garage rock, formado por Inés Adam y
 Martina Nintzel. Conocidas por hacer covers de [The Strokes](https://en.wikipedia.org/wiki/The_Strokes) aunque han lanzado álbumes propios.
 
-<iframe width="658" height="370" src="https://www.youtube.com/embed/9HqVMsYv05A?list=RDWKrt2JwUFYQ" title="Pacifica - Change Your Mind (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Pacifica - Change Your
+Mind](https://music.youtube.com/watch?v=QzOC1bd8Kow&si=vgNptYhZyfGxHBl0)
 
 ## Brasil
 
@@ -88,6 +93,9 @@ década de 1970.
 
 <iframe width="658" height="468" src="https://www.youtube.com/embed/CmB4sfoZkwo?list=RDCmB4sfoZkwo" title="Metamorfose Ambulante" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+[Raul Seixas - Metamorfose
+Ambulante](https://music.youtube.com/watch?v=CmB4sfoZkwo&si=Ib1sXqYfFBZQSGGW)
+
 ## Uruguay
 
 ### Ruben Rada
@@ -98,8 +106,8 @@ se llamaba "La Nueva Milonga". A los diecisiete debutó como *frontman* en la ba
 "Los Hot Blowers" con el seudónimo Richie Silver. En 1969 logró grabar su primer
 álbum como solista "Rada".
 
-<iframe width="658" height="468" src="https://www.youtube.com/embed/K3tNbHU6Y78?list=RDK3tNbHU6Y78" title="No Me Queda Más Tiempo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+[Ruben Rada - No Me Queda Más
+Tiempo](https://music.youtube.com/watch?v=K3tNbHU6Y78&si=dliIhVievBfNTnRw)
 
 ## Colombia
 
@@ -109,7 +117,8 @@ Apodada la Reina del pop latino, inició su carrera en 1991 y luego de unos
 intentos fallidos, lanzó el álbum "Pies descalzos", que fue un éxito. Años
 después, en 1998, lanzó "¿Dónde están los ladrones?" que fue otro éxito.
 
-<iframe width="658" height="468" src="https://www.youtube.com/embed/fgvD663h9Os?list=RDfgvD663h9Os" title="Shakira - Inevitable (Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Shakira -
+Inevitable](https://music.youtube.com/watch?v=KvsC0FXhAwU&si=ZqU1ATC-baEXssFC)
 
 ## Panamá
 
@@ -121,7 +130,8 @@ como [Mahavishnu Orchestra](https://es.wikipedia.org/wiki/Mahavishnu_Orchestra).
 En 1973 graba su primer álbum como solista "Spectrum" el cual abarca el género
 de *jazz fusion*.
 
-<iframe width="658" height="468" src="https://www.youtube.com/embed/RncVJZDHBKg?list=OLAK5uy_lc2PVEnoBfwwJZ4RsNnVwG7B3Hg21qOXc" title="A Light Shines In Your Eyes Summit Afrique (Excerpts From...)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Billy Cobham - A Light Shines In Your Eyes Summit Afrique (Excerpts
+From...)](https://music.youtube.com/watch?v=RncVJZDHBKg&si=OK6YVdu3xmBW23d2)
 
 ## Estados unidos
 
@@ -135,9 +145,10 @@ Lynch](https://es.wikipedia.org/wiki/Stan_Lynch) y [Benmont
 Tench](https://es.wikipedia.org/wiki/Benmont_Tench). Fue una de las principales
 bandas del movimiento [heartland
 rock](https://es.wikipedia.org/wiki/Heartland_rock) y tiene muchos éxitos, como
-"Learning to Fly" o "Refugee".
+"Learning To Fly" o "Refugee".
 
-<iframe width="658" height="370" src="https://www.youtube.com/embed/haRhA6AZpcU?list=RDhaRhA6AZpcU" title="Tom Petty  - You Wreck Me (Official Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Tom Petty and The Heartbreakers - Learning To
+Fly](https://music.youtube.com/watch?v=Bb5xJN_4Hck&si=Hg1YCN1-1j5zTy-s)
 
 ### Mazzy Star
 
@@ -148,7 +159,8 @@ Sandoval](https://es.wikipedia.org/wiki/Hope_Sandoval) en el rol de vocalista. S
 hicieron conocidos por el éxito "Fade into You" a mediados de los años 1990.
 Sandoval escribía las letras y Roback componía la música.
 
-<iframe width="658" height="468" src="https://www.youtube.com/embed/FGzNErpGZPg?list=RDFGzNErpGZPg" title="Blue Flower" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Mazzy Star - Blue
+Flower](https://music.youtube.com/watch?v=FGzNErpGZPg&si=tKGWHSE3nKZuOB_2)
 
 ## Francia
 
@@ -160,7 +172,8 @@ Godin](https://es.wikipedia.org/wiki/Nicolas_Godin). Fueron altamente aclamados
 por la crítica por su primer LP, llamado [Moon
 Safari](https://es.wikipedia.org/wiki/Moon_Safari) en 1998.
 
-<iframe width="658" height="468" src="https://www.youtube.com/embed/ZBVK7Z9AyNM?list=RDZBVK7Z9AyNM" title="Cherry Blossom Girl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Air - Cherry Blossom
+Girl](https://music.youtube.com/watch?v=ZBVK7Z9AyNM&si=RWaFUqpSIt2FS93l)
 
 ## Reino Unido
 
@@ -170,7 +183,8 @@ Banda electrónica formada a mediados de 1990 por los hermanos Paul y Ross
 Godfrey, quienes más tarde reclutaron a Skye Edwards como vocalista. Su último
 álbum al día de la fecha salió en 2025, llamado "Escape the Chaos".
 
-<iframe width="658" height="468" src="https://www.youtube.com/embed/2i03_L_tsY0?list=RD2i03_L_tsY0" title="Way Beyond" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Morcheeba - Way
+Beyond](https://music.youtube.com/watch?v=2i03_L_tsY0&si=1UTNnPP7KLJqXs4A)
 
 ### Zero 7
 
@@ -180,6 +194,5 @@ su primer EP llamado EP1, del cual vendieron algunas copias. A mediados de 2001,
 lanzaron "Simple Things", el cual relata en sus canciones hechos de la vida
 cotidiana como pasear al perro.
 
-<iframe width="658" height="370" src="https://www.youtube.com/embed/U_OKigBRqBI?list=RDU_OKigBRqBI" title="Zero 7 - Destiny (Official Video) ft. Sia, Sophie Barker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
+[Zero 7 - Destiny (con Sophie Barker y
+Sia)](https://music.youtube.com/watch?v=U_OKigBRqBI&si=OVEPugN493N8J1l0)
