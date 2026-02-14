@@ -100,58 +100,54 @@ Dejo a continuación mi `.zshrc` completo, el cual está debidamente comentado:
 
 
 ``` zsh
-cat -n ~/.zshrc
-```
+autoload -U colors && colors	# Load colors
+setopt autocd		# Automatically cd into typed directory.
+stty stop undef		# Disable ctrl-s to freeze terminal.
+setopt interactive_comments
 
-```
-     1	autoload -U colors && colors	# Load colors
-     2	setopt autocd		# Automatically cd into typed directory.
-     3	stty stop undef		# Disable ctrl-s to freeze terminal.
-     4	setopt interactive_comments
-     5	
-     6	# History in cache directory:
-     7	HISTSIZE=10000000
-     8	SAVEHIST=10000000
-     9	HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
-    10	setopt inc_append_history
-    11	
-    12	# Basic auto/tab complete:
-    13	autoload -U compinit
-    14	zstyle ':completion:*' menu select
-    15	zmodload zsh/complist
-    16	compinit
-    17	_comp_options+=(globdots)		# Include hidden files.
-    18	
-    19	# Aliases
-    20	alias ls='ls --color=auto'
-    21	alias grep='grep --color=auto'
-    22	alias vim="nvim"
-    23	alias lf="lfrun"
-    24	
-    25	# Vi mode
-    26	bindkey -v
-    27	export KEYTIMEOUT=1 # controls the delay (in hundredths of a second) Zsh waits
-    28	                    # for subsequent keystrokes to complete a multi-character command
-    29	
-    30	# Prompt
-    31	# PROMPT='[%n@%m %~]$ '
-    32	autoload -Uz promptinit
-    33	promptinit
-    34	prompt redhat
-    35	
-    36	# Decide which editor is launched when a program wants
-    37	# to start an editor
-    38	export EDITOR=nvim
-    39	
-    40	# Set up fzf key bindings and fuzzy completion
-    41	source <(fzf --zsh)
-    42	
-    43	# Add ~/.local/bin to PATH
-    44	export PATH="$PATH:$HOME/.local/bin"
-    45	
-    46	# Load syntax highlighting; should be last.
-    47	# 2>/dev/null is a redirection that silences error messages by sending them to
-    48	# the null device
-    49	source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
+# History in cache directory:
+HISTSIZE=10000000
+SAVEHIST=10000000
+HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
+setopt inc_append_history
+
+# Basic auto/tab complete:
+autoload -U compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+compinit
+_comp_options+=(globdots)		# Include hidden files.
+
+# Aliases
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias vim="nvim"
+alias lf="lfrun"
+
+# Vi mode
+bindkey -v
+export KEYTIMEOUT=1 # controls the delay (in hundredths of a second) Zsh waits
+                    # for subsequent keystrokes to complete a multi-character command
+
+# Prompt
+# PROMPT='[%n@%m %~]$ '
+autoload -Uz promptinit
+promptinit
+prompt redhat
+
+# Decide which editor is launched when a program wants
+# to start an editor
+export EDITOR=nvim
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
+# Add ~/.local/bin to PATH
+export PATH="$PATH:$HOME/.local/bin"
+
+# Load syntax highlighting; should be last.
+# 2>/dev/null is a redirection that silences error messages by sending them to
+# the null device
+source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
 ```
 
