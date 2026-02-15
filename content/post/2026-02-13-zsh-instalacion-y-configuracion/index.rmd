@@ -77,9 +77,9 @@ Luego, al final del `.zshrc` añadimos:
 
 ## Bonus
 
-### fzf
+### Fzf
 
-`fzf` es un complemento para nuestra *shell*. Con `fzf` podemos navegar
+Fzf es un complemento para nuestra *shell*. Con `fzf` podemos navegar
 interactivamente a través de la historia de nuestros comandos con `ctrl + r`
 
 Esto es muy útil ya que podemos dejar de recordar todos los comandos y en su
