@@ -10,7 +10,7 @@ tags: []
 
 ## Ajedrez
 
-El **ajedrez** es un juego no necesita presentación. Además, hoy en día existen
+El **ajedrez** es un juego que no necesita presentación. Además, hoy en día existen
 varias plataformas donde no solo podemos jugar, sino también aprender sobre las
 **estrategias para dominar el juego**. Las más conocidas son:
 
@@ -33,7 +33,7 @@ inercia**.
 Esto puede llevarnos a cometer errores simples y perder muchas partidas. Por eso
 recomiendo **tomarse unos minutos de descanso** luego de llevar unas cuantas
 partidas. El número depende de cada jugador, yo diría que el cansancio se empiza
-a sentir luego de cinco partidas seguidas.
+a sentir **luego de cinco partidas seguidas**.
 
 ### 2. Mirar cómo juegan los mejores
 
