@@ -33,7 +33,7 @@ inercia**.
 Esto puede llevarnos a cometer errores simples y perder muchas partidas. Por eso
 recomiendo **tomarse unos minutos de descanso** luego de llevar unas cuantas
 partidas. El número depende de cada jugador, yo diría que el cansancio se empiza
-a sentir **luego de cinco partidas seguidas**.
+a sentir **luego de tres partidas seguidas**.
 
 ### 2. Mirar cómo juegan los mejores
 
