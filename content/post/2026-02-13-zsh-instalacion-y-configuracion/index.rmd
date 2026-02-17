@@ -40,10 +40,12 @@ Por defecto **Zsh** ofrece un *prompt* bastante genérico, para cambiarlo,
 añadimos lo siguiente al archivo de configuración:
 
 ````{verbatim, lang = "zsh"}
+```{zsh}
 # Prompt
 autoload -Uz promptinit
 promptinit
 prompt redhat
+```
 ````
 
 El `prompt redhat` es el mismo prompt que trae por defecto **Bash**.
@@ -53,12 +55,14 @@ El `prompt redhat` es el mismo prompt que trae por defecto **Bash**.
 Para tener una mejor experiencia de autocompletado, añadimos lo siguiente:
 
 ````{verbatim, lang = "zsh"}
+```{zsh}
 # Basic auto/tab complete:
 autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files.
+```
 ````
 
 ### Resaltado de sintáxis
@@ -94,57 +98,5 @@ que queremos ejecutar. También hay otros comandos útiles, en la
 
 ### Mi .zshrc completo
 
-Dejo a continuación mi `.zshrc` completo, el cual está debidamente comentado:
-
-````{verbatim, lang = "zsh"}
-autoload -U colors && colors	# Load colors
-setopt autocd		# Automatically cd into typed directory.
-stty stop undef		# Disable ctrl-s to freeze terminal.
-setopt interactive_comments
-
-# History in cache directory:
-HISTSIZE=10000000
-SAVEHIST=10000000
-HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
-setopt inc_append_history
-
-# Basic auto/tab complete:
-autoload -U compinit
-zstyle ':completion:*' menu select
-zmodload zsh/complist
-compinit
-_comp_options+=(globdots)		# Include hidden files.
-
-# Aliases
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-alias vim="nvim"
-alias lf="lfrun"
-
-# Vi mode
-bindkey -v
-export KEYTIMEOUT=1 # controls the delay (in hundredths of a second) Zsh waits
-                    # for subsequent keystrokes to complete a multi-character command
-
-# Prompt
-# PROMPT='[%n@%m %~]$ '
-autoload -Uz promptinit
-promptinit
-prompt redhat
-
-# Decide which editor is launched when a program wants
-# to start an editor
-export EDITOR=nvim
-
-# Set up fzf key bindings and fuzzy completion
-source <(fzf --zsh)
-
-# Add ~/.local/bin to PATH
-export PATH="$PATH:$HOME/.local/bin"
-
-# Load syntax highlighting; should be last.
-# 2>/dev/null is a redirection that silences error messages by sending them to
-# the null device
-source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
-````
-
+Dejo a continuación [mi .zshrc](https://github.com/lucasmartino95/dotfiles/blob/main/.zshrc) 
+completo, el cual está debidamente comentado:
