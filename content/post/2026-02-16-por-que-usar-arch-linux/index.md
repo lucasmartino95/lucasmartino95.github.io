@@ -54,7 +54,7 @@ pequeñas y frecuentes actualizaciones.
 Algo que diferencia a **Arch Linux** de otras distribuciones es la gran cantidad de
 paquetes que ofrece a través de su potente gestor de paquetes `pacman` que
 ofrece casi siempre los últimos lanzamientos de los distintos programas. Otra
-*distro* que vale la pena mencionar en cuanto a esto, es
+*distro* que vale la pena mencionar en cuanto a esto es 
 [Fedora](https://www.fedoraproject.org/es/).
 
 ## ArchWiki
