@@ -60,7 +60,7 @@ ofrece casi siempre los últimos lanzamientos de los distintos programas. Otra
 ## ArchWiki
 
 La [ArchWiki](https://wiki.archlinux.org/title/Main_page) es la documentación
-oficial de la distribución. Todo está muy bien organizado y explicado. Cada
-aplicación popular, suele tener su entrada en esta *wiki*. Así que, si queremos
+oficial de la distribución. Todo está muy bien organizado y explicado. Los
+programas más conocidos, suelen tener su entrada en esta *wiki*. Así que, si queremos
 saber cómo funciona algo, lo más probable es que en la
 [ArchWiki](https://wiki.archlinux.org/title/Main_page) esté documentado.
