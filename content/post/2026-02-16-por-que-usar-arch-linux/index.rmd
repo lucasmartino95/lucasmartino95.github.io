@@ -23,7 +23,7 @@ instalamos **Arch Linux** por primera vez, puede ser un poco desafiante enfrenta
 a la consola que, por defecto es el lugar donde se realiza la instalación.
 
 Pero al leer la [ArchWiki](https://wiki.archlinux.org/title/Installation_guide) mientras vamos
-realizando la instalación, nos damos cuenta que simplemente seguiendo las
+realizando la instalación, nos damos cuenta que simplemente siguiendo las
 órdenes recomendadas podemos instalarlo. Luego cuando ya se tiene experiencia en
 la instalación, es **muy dificil volver atrás**.
 
